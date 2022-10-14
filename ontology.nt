@@ -1,0 +1,1018 @@
+<http://w3id.org/omicron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/omicron> <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by-nc/4.0/" .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/contributor> "Ignacio Lazaro <mailto:ignacio.lazaro@tekniker.es>\nFrancisco Javier Diez <mailto:fdiez"@tekniker.es> .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/created> "2022-10-11" .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/creator> "Izaskun Fernandez<mailto:izaskun.fernandez"@tekniker.es> .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/description> "The OMICRON Ontology" .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/description> "The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.\n\nThe OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269." .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/issued> "2022-10-13" .
+<http://w3id.org/omicron> <http://purl.org/dc/terms/title> "The OMICRON Ontology" .
+<http://w3id.org/omicron> <http://purl.org/ontology/bibo/status> "Work in Progress" .
+<http://w3id.org/omicron> <http://purl.org/vocab/vann/preferredNamespacePrefix> "omicron" .
+<http://w3id.org/omicron> <http://purl.org/vocab/vann/preferredNamespaceURI> "https://w3id.org/omicron#" .
+<http://w3id.org/omicron> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceURI
+<http://purl.org/vocab/vann/preferredNamespaceURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/BFO_0000066
+<http://purl.obolibrary.org/obo/BFO_0000066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000066> <http://www.w3.org/2000/01/rdf-schema#label> "occurs in" .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> <http://www.w3.org/2000/01/rdf-schema#label> "PredefinedType" .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/hasOutput
+<https://purl.industrialontologies.org/ontology/core/Core/hasOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://purl.industrialontologies.org/ontology/core/Core/hasOutput> <http://www.w3.org/2002/07/owl#inverseOf> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/isAbout
+<https://purl.industrialontologies.org/ontology/core/Core/isAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://purl.industrialontologies.org/ontology/core/Core/isAbout> <http://www.w3.org/2002/07/owl#inverseOf> <https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/isOutputOf
+<https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf
+<https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/omicron#authentificationType
+<https://w3id.org/omicron#authentificationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/omicron#authentificationType> <http://www.w3.org/2000/01/rdf-schema#comment> "This relation is intended to define the AuthIfo for a certain Resource" .
+<https://w3id.org/omicron#authentificationType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#authentificationType> <http://www.w3.org/2000/01/rdf-schema#label> "authentificationType" .
+<https://w3id.org/omicron#authentificationType> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+# 
+# https://w3id.org/omicron#endpoint
+<https://w3id.org/omicron#endpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/omicron#endpoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "This relation is intended to define the Endpoint for a certain Resource" .
+<https://w3id.org/omicron#endpoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#endpoint> <http://www.w3.org/2000/01/rdf-schema#label> "endpoint" .
+<https://w3id.org/omicron#endpoint> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+# 
+# https://w3id.org/omicron#informationIn
+<https://w3id.org/omicron#informationIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/omicron#informationIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation that link an entity and the resource where its information is stored in."@en .
+<https://w3id.org/omicron#informationIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#informationIn> <http://www.w3.org/2000/01/rdf-schema#label> "informationIn"@en .
+<https://w3id.org/omicron#informationIn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/BFO_0000001
+<http://purl.obolibrary.org/obo/BFO_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "entity"@en .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/express#STRING> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid2 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> <http://www.w3.org/2002/07/owl#equivalentClass> <https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/idsa/core/Resource> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/Resource> .
+_:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/omicronBarriersMaintenance
+<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Barriers maintenance process"@en .
+<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Barriers Maintenance"@en .
+<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/idsa/core/Resource> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/Resource> .
+_:genid13 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid14 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity
+<https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem
+<https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000066> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/idsa/core/Resource> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/Resource> .
+_:genid19 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000066> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000066> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/idsa/core/Resource> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/Resource> .
+_:genid25 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000066> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid27 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://w3id.org/express#STRING
+<https://w3id.org/express#STRING> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/idsa/core/AuthInfo
+<https://w3id.org/idsa/core/AuthInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/idsa/core/GenericEndpoint
+<https://w3id.org/idsa/core/GenericEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/idsa/core/Resource
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/idsa/core/AuthInfo> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#authentificationType> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/idsa/core/GenericEndpoint> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#endpoint> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> .
+_:genid31 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/AuthInfo> .
+_:genid32 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#authentificationType> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/idsa/core/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/GenericEndpoint> .
+_:genid33 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#endpoint> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://w3id.org/omicron#AsphaltMixEvolution
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#SurfaceRehabilitationMaintenance> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TimeSeries> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#SurfaceRehabilitationMaintenance> .
+_:genid36 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TimeSeries> .
+_:genid37 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent Asphalt Mix parameters evolution related information"@en .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2000/01/rdf-schema#label> "Asphalt Mix Evolution"@en .
+<https://w3id.org/omicron#AsphaltMixEvolution> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#Asset
+<https://w3id.org/omicron#Asset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid40 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid41 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to an asset"@en .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2000/01/rdf-schema#label> "Asset"@en .
+<https://w3id.org/omicron#Asset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#BIMServer
+<https://w3id.org/omicron#BIMServer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#BIMServer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/idsa/core/Resource> .
+<https://w3id.org/omicron#BIMServer> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to define BIM Server sources"@en .
+<https://w3id.org/omicron#BIMServer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#"@en .
+<https://w3id.org/omicron#BIMServer> <http://www.w3.org/2000/01/rdf-schema#label> "BIMServer"@en .
+<https://w3id.org/omicron#BIMServer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#CameraRawImages
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid43 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid44 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent camera's raw images informartion"@en .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2000/01/rdf-schema#label> "Camera raw images"@en .
+<https://w3id.org/omicron#CameraRawImages> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#CleaningMaintenance
+<https://w3id.org/omicron#CleaningMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#CleaningMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicron#CleaningMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Cleaning maintenance process"@en .
+<https://w3id.org/omicron#CleaningMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#CleaningMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Cleaning Maintenance"@en .
+<https://w3id.org/omicron#CleaningMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#ConesMaintenance
+<https://w3id.org/omicron#ConesMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#ConesMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicron#ConesMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Cones maintenance process"@en .
+<https://w3id.org/omicron#ConesMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#ConesMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Cones Maintenance"@en .
+<https://w3id.org/omicron#ConesMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#CrackCharacterization
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#CrackSealingMaintenance> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#CrackSealingMaintenance> .
+_:genid47 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent Crack Characterization related information"@en .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2000/01/rdf-schema#label> "Crack Characterization"@en .
+<https://w3id.org/omicron#CrackCharacterization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#CrackSealingMaintenance
+<https://w3id.org/omicron#CrackSealingMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#CrackSealingMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicron#CrackSealingMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Crack sealing Maintenance process"@en .
+<https://w3id.org/omicron#CrackSealingMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#CrackSealingMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Crack Sealing Maintenance"@en .
+<https://w3id.org/omicron#CrackSealingMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#DeviationDegree
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid51 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid52 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent terrestian vechicle's deviation degree related information"@en .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Deviation degree"@en .
+<https://w3id.org/omicron#DeviationDegree> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#ExternalConditions
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TimeSeries> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid55 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TimeSeries> .
+_:genid56 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to external conditions such as traffic, environmetal conditions, ..."@en .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#ExternalConditions> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#FileStorage
+<https://w3id.org/omicron#FileStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#FileStorage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/idsa/core/Resource> .
+<https://w3id.org/omicron#FileStorage> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to define File Storage sources"@en .
+<https://w3id.org/omicron#FileStorage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#"@en .
+<https://w3id.org/omicron#FileStorage> <http://www.w3.org/2000/01/rdf-schema#label> "FileStorage"@en .
+<https://w3id.org/omicron#FileStorage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#IRI
+<https://w3id.org/omicron#IRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid59 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid60 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent IRI measurement informartion"@en .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2000/01/rdf-schema#label> "IRI"@en .
+<https://w3id.org/omicron#IRI> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#InspectionPointCloud
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#UAVInspection> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#UAVInspection> .
+_:genid62 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid63 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent  related informartion"@en .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2000/01/rdf-schema#label> "Inspection PointCloud"@en .
+<https://w3id.org/omicron#InspectionPointCloud> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#InspectionResultDefinition
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#UAVInspection> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
+_:genid65 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#UAVInspection> .
+_:genid66 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid67 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent inspection results definition related informartion"@en .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Inspection Result Definition"@en .
+<https://w3id.org/omicron#InspectionResultDefinition> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#LaneMarkersMaintenance
+<https://w3id.org/omicron#LaneMarkersMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#LaneMarkersMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicron#LaneMarkersMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Lane Markers Maintenance process"@en .
+<https://w3id.org/omicron#LaneMarkersMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#LaneMarkersMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Lane Markers Maintenance"@en .
+<https://w3id.org/omicron#LaneMarkersMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#MaintenancePrioritizationSnapshot
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid70 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid71 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to the maintenance activities prioritization"@en .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2000/01/rdf-schema#label> "Maintenance Prioritization Snapshot"@en .
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#MaintenanceTaskSnapshot
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/2002/07/owl#onClass> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+_:genid74 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid75 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to the planned maintenance activities"@en .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#Map
+<https://w3id.org/omicron#Map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid78 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid79 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to a map"@en .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2000/01/rdf-schema#label> "Map"@en .
+<https://w3id.org/omicron#Map> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#MarkCharacterization
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#CrackSealingMaintenance> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#CrackSealingMaintenance> .
+_:genid81 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent Mark Characterizationrelated information"@en .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2000/01/rdf-schema#label> "Mark Characterization"@en .
+<https://w3id.org/omicron#MarkCharacterization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#MinorDefect
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid84 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid85 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent minor defect related informartion"@en .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2000/01/rdf-schema#label> "Minor Defect"@en .
+<https://w3id.org/omicron#MinorDefect> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#OtherSignalMaintenance
+<https://w3id.org/omicron#OtherSignalMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#OtherSignalMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicron#OtherSignalMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Other Signal Maintenance process"@en .
+<https://w3id.org/omicron#OtherSignalMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#OtherSignalMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Other Signal Maintenance"@en .
+<https://w3id.org/omicron#OtherSignalMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#Pathology
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid88 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid89 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent Pathology related informartion"@en .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2000/01/rdf-schema#label> "Pathology"@en .
+<https://w3id.org/omicron#Pathology> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#PlannedMaintenanceSnapshot
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid92 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid93 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to the maintenance tasks to be performed for a certain maintenance activity process"@en .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2000/01/rdf-schema#label> "Planned Maintenance Snapshot"@en .
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#RDMBS
+<https://w3id.org/omicron#RDMBS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#RDMBS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/idsa/core/Resource> .
+<https://w3id.org/omicron#RDMBS> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to define relational data base sources"@en .
+<https://w3id.org/omicron#RDMBS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#"@en .
+<https://w3id.org/omicron#RDMBS> <http://www.w3.org/2000/01/rdf-schema#label> "RDBMS"@en .
+<https://w3id.org/omicron#RDMBS> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#RoadCondition
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid96 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid97 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to road conditions"@en .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Road Condition"@en .
+<https://w3id.org/omicron#RoadCondition> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#SFC
+<https://w3id.org/omicron#SFC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid100 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid101 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid101 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent SFC measurement informartion"@en .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2000/01/rdf-schema#label> "SFC"@en .
+<https://w3id.org/omicron#SFC> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#SurfaceRehabilitationMaintenance
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface Rehabilitation Maintenance process"@en .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Surface Rehabilitation Maintenance"@en .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid102 .
+_:genid102 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#SurfaceRehabilitationMaintenance> .
+_:genid102 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid103 .
+_:genid103 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#SurfaceRehabilitationMaintenance> .
+_:genid104 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid105 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid105 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent Surface Rehabilitation Maintenance Result related information"@en .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2000/01/rdf-schema#label> "Surface Rehabilitation Maintenance Result"@en .
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#TerrestialInspection
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> .
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/omicron#UAVInspection> .
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/2000/01/rdf-schema#comment> "Terrestial vehicle driven inspection process"@en .
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/2000/01/rdf-schema#label> "Terrestial Inspection"@en .
+<https://w3id.org/omicron#TerrestialInspection> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#TimeSeries
+<https://w3id.org/omicron#TimeSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#TimeSeries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/idsa/core/Resource> .
+<https://w3id.org/omicron#TimeSeries> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to define time series sources"@en .
+<https://w3id.org/omicron#TimeSeries> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#"@en .
+<https://w3id.org/omicron#TimeSeries> <http://www.w3.org/2000/01/rdf-schema#label> "TimeSeries"@en .
+<https://w3id.org/omicron#TimeSeries> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#UAVInspection
+<https://w3id.org/omicron#UAVInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#UAVInspection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> .
+<https://w3id.org/omicron#UAVInspection> <http://www.w3.org/2000/01/rdf-schema#comment> "UAV devices driven inspection process"@en .
+<https://w3id.org/omicron#UAVInspection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron#UAVInspection> <http://www.w3.org/2000/01/rdf-schema#label> "UAV Inspection"@en .
+<https://w3id.org/omicron#UAVInspection> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#UAVTrajectory
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid106 .
+_:genid106 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#UAVInspection> .
+_:genid106 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid108 .
+_:genid108 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#UAVInspection> .
+_:genid108 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid108 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid109 .
+_:genid109 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid109 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid109 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent UAV Trajectory information"@en .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2000/01/rdf-schema#label> "UAV Trajectory"@en .
+<https://w3id.org/omicron#UAVTrajectory> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#3DLaserScanningData
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid110 .
+_:genid110 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid110 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid111 .
+_:genid111 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#FileStorage> .
+_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#TerrestialInspection> .
+_:genid112 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid112 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#FileStorage> .
+_:genid113 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid113 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent 3D laser scanning device generated data"@en .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2000/01/rdf-schema#label> "3D laser scanning data"@en .
+<https://w3id.org/omicron#3DLaserScanningData> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# https://w3id.org/omicron#3DModel
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid114 .
+_:genid114 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid114 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid115 .
+_:genid115 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/omicron#BIMServer> .
+_:genid115 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> .
+_:genid116 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid116 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/omicron#BIMServer> .
+_:genid117 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid117 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is intended to represent information related to 3D model"@en .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3.id.org/omicron#" .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2000/01/rdf-schema#label> "3DModel"@en .
+<https://w3id.org/omicron#3DModel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

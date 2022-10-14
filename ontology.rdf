@@ -1,0 +1,1657 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/omicron#"
+     xml:base="http://w3id.org/omicron"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://w3id.org/omicron">
+        <ns:license>https://creativecommons.org/licenses/by-nc/4.0/</ns:license>
+        <terms:contributor xml:lang="tekniker.es&gt;">Ignacio Lazaro &lt;mailto:ignacio.lazaro@tekniker.es&gt;
+Francisco Javier Diez &lt;mailto:fdiez</terms:contributor>
+        <terms:created>2022-10-11</terms:created>
+        <terms:creator xml:lang="tekniker.es&gt;">Izaskun Fernandez&lt;mailto:izaskun.fernandez</terms:creator>
+        <terms:description>The OMICRON Ontology</terms:description>
+        <terms:description>The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.
+
+The OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269.</terms:description>
+        <terms:issued>2022-10-13</terms:issued>
+        <terms:title>The OMICRON Ontology</terms:title>
+        <bibo:status>Work in Progress</bibo:status>
+        <vann:preferredNamespacePrefix>omicron</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceURI>https://w3id.org/omicron#</vann:preferredNamespaceURI>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceURI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceURI"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <rdfs:label>occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot -->
+
+
+    <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition -->
+
+
+    <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition"/>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart -->
+
+
+    <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart">
+        <rdfs:domain rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
+        <rdfs:range rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+        <rdfs:label>PredefinedType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject -->
+
+
+    <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/hasOutput -->
+
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/hasOutput">
+        <owl:inverseOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isAbout -->
+
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isAbout">
+        <owl:inverseOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isOutputOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
+    
+
+
+    <!-- https://w3id.org/omicron#authentificationType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/omicron#authentificationType">
+        <rdfs:comment>This relation is intended to define the AuthIfo for a certain Resource</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label>authentificationType</rdfs:label>
+        <ns1:term_status>testing</ns1:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/omicron#endpoint -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/omicron#endpoint">
+        <rdfs:isDefinedBy>This relation is intended to define the Endpoint for a certain Resource</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label>endpoint</rdfs:label>
+        <ns1:term_status>testing</ns1:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/omicron#informationIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/omicron#informationIn">
+        <rdfs:comment xml:lang="en">Relation that link an entity and the resource where its information is stored in.</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">informationIn</rdfs:label>
+        <ns1:term_status>testing</ns1:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/express#STRING"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition">
+        <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates">
+        <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad">
+        <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart">
+        <owl:equivalentClass rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem"/>
+        <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement">
+        <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/omicronBarriersMaintenance -->
+
+
+    <owl:Class rdf:about="http://w3id.org/omicronBarriersMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Barriers maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Barriers Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity -->
+
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity -->
+
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem -->
+
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity -->
+
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:allValuesFrom rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess -->
+
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess -->
+
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/idsa/core/Resource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/express#STRING -->
+
+
+    <owl:Class rdf:about="https://w3id.org/express#STRING"/>
+    
+
+
+    <!-- https://w3id.org/idsa/core/AuthInfo -->
+
+
+    <owl:Class rdf:about="https://w3id.org/idsa/core/AuthInfo"/>
+    
+
+
+    <!-- https://w3id.org/idsa/core/GenericEndpoint -->
+
+
+    <owl:Class rdf:about="https://w3id.org/idsa/core/GenericEndpoint"/>
+    
+
+
+    <!-- https://w3id.org/idsa/core/Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/idsa/core/Resource">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#authentificationType"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/idsa/core/AuthInfo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#endpoint"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/idsa/core/GenericEndpoint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#authentificationType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/idsa/core/AuthInfo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#endpoint"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/idsa/core/GenericEndpoint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#AsphaltMixEvolution -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#AsphaltMixEvolution">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#SurfaceRehabilitationMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TimeSeries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#SurfaceRehabilitationMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TimeSeries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent Asphalt Mix parameters evolution related information</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Asphalt Mix Evolution</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#Asset -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#Asset">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to an asset</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Asset</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#BIMServer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#BIMServer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
+        <rdfs:comment xml:lang="en">This class is intended to define BIM Server sources</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BIMServer</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#CameraRawImages -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#CameraRawImages">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent camera&apos;s raw images informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Camera raw images</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#CleaningMaintenance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#CleaningMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Cleaning maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cleaning Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#ConesMaintenance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#ConesMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Cones maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cones Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#CrackCharacterization -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#CrackCharacterization">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#CrackSealingMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#CrackSealingMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent Crack Characterization related information</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Crack Characterization</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#CrackSealingMaintenance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#CrackSealingMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Crack sealing Maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Crack Sealing Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#DeviationDegree -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#DeviationDegree">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent terrestian vechicle&apos;s deviation degree related information</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Deviation degree</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#ExternalConditions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#ExternalConditions">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TimeSeries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TimeSeries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to external conditions such as traffic, environmetal conditions, ...</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#FileStorage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#FileStorage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
+        <rdfs:comment xml:lang="en">This class is intended to define File Storage sources</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FileStorage</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#IRI -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#IRI">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent IRI measurement informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">IRI</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#InspectionPointCloud -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#InspectionPointCloud">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent  related informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Inspection PointCloud</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#InspectionResultDefinition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#InspectionResultDefinition">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent inspection results definition related informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Inspection Result Definition</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#LaneMarkersMaintenance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#LaneMarkersMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Lane Markers Maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Lane Markers Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#MaintenancePrioritizationSnapshot -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#MaintenancePrioritizationSnapshot">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to the maintenance activities prioritization</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Maintenance Prioritization Snapshot</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#MaintenanceTaskSnapshot -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#MaintenanceTaskSnapshot">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to the planned maintenance activities</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#Map -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#Map">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to a map</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Map</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#MarkCharacterization -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#MarkCharacterization">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#CrackSealingMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#CrackSealingMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent Mark Characterizationrelated information</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mark Characterization</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#MinorDefect -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#MinorDefect">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent minor defect related informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Minor Defect</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#OtherSignalMaintenance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#OtherSignalMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Other Signal Maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Other Signal Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#Pathology -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#Pathology">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent Pathology related informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Pathology</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#PlannedMaintenanceSnapshot -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#PlannedMaintenanceSnapshot">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to the maintenance tasks to be performed for a certain maintenance activity process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Planned Maintenance Snapshot</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#RDMBS -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#RDMBS">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
+        <rdfs:comment xml:lang="en">This class is intended to define relational data base sources</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RDBMS</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#RoadCondition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#RoadCondition">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to road conditions</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Road Condition</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#SFC -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#SFC">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent SFC measurement informartion</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SFC</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#SurfaceRehabilitationMaintenance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#SurfaceRehabilitationMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Surface Rehabilitation Maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Surface Rehabilitation Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#SurfaceRehabilitationMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#SurfaceRehabilitationMaintenance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent Surface Rehabilitation Maintenance Result related information</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Surface Rehabilitation Maintenance Result</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#TerrestialInspection -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#TerrestialInspection">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+        <rdfs:comment xml:lang="en">Terrestial vehicle driven inspection process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Terrestial Inspection</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#TimeSeries -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#TimeSeries">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
+        <rdfs:comment xml:lang="en">This class is intended to define time series sources</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TimeSeries</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#UAVInspection -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#UAVInspection">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <rdfs:comment xml:lang="en">UAV devices driven inspection process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">UAV Inspection</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#UAVTrajectory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#UAVTrajectory">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#UAVInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent UAV Trajectory information</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">UAV Trajectory</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#3DLaserScanningData -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#3DLaserScanningData">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#TerrestialInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#FileStorage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent 3D laser scanning device generated data</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">3D laser scanning data</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/omicron#3DModel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/omicron#3DModel">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/omicron#BIMServer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/omicron#informationIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/omicron#BIMServer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class is intended to represent information related to 3D model</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3.id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">3DModel</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT -->
+
+
+    <owl:NamedIndividual rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT">
+        <rdf:type rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

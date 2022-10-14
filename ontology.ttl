@@ -1,0 +1,1088 @@
+@prefix : <http://w3id.org/omicron#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://w3id.org/omicron#> .
+
+<http://w3id.org/omicron> rdf:type owl:Ontology ;
+                           <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by-nc/4.0/" ;
+                           <http://purl.org/dc/terms/contributor> """Ignacio Lazaro <mailto:ignacio.lazaro@tekniker.es>
+Francisco Javier Diez <mailto:fdiez"""@tekniker.es> ;
+                           <http://purl.org/dc/terms/created> "2022-10-11" ;
+                           <http://purl.org/dc/terms/creator> "Izaskun Fernandez<mailto:izaskun.fernandez"@tekniker.es> ;
+                           <http://purl.org/dc/terms/description> "The OMICRON Ontology" ,
+                                                                  """The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.
+
+The OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269.""" ;
+                           <http://purl.org/dc/terms/issued> "2022-10-13" ;
+                           <http://purl.org/dc/terms/title> "The OMICRON Ontology" ;
+                           <http://purl.org/ontology/bibo/status> "Work in Progress" ;
+                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "omicron" ;
+                           <http://purl.org/vocab/vann/preferredNamespaceURI> "https://w3id.org/omicron#" ;
+                           owl:versionInfo 0.1 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceURI
+<http://purl.org/vocab/vann/preferredNamespaceURI> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/BFO_0000066
+<http://purl.obolibrary.org/obo/BFO_0000066> rdf:type owl:ObjectProperty ;
+                                             rdfs:label "occurs in" .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> rdf:type owl:ObjectProperty .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition> rdf:type owl:ObjectProperty .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> ;
+                                                                                       rdfs:range <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> ;
+                                                                                       rdfs:label "PredefinedType" .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject> rdf:type owl:ObjectProperty .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/hasOutput
+<https://purl.industrialontologies.org/ontology/core/Core/hasOutput> rdf:type owl:ObjectProperty ;
+                                                                     owl:inverseOf <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/isAbout
+<https://purl.industrialontologies.org/ontology/core/Core/isAbout> rdf:type owl:ObjectProperty ;
+                                                                   owl:inverseOf <https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf> .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/isOutputOf
+<https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> rdf:type owl:ObjectProperty .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf
+<https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/omicron#authentificationType
+<https://w3id.org/omicron#authentificationType> rdf:type owl:ObjectProperty ;
+                                                rdfs:comment "This relation is intended to define the AuthIfo for a certain Resource" ;
+                                                rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                                rdfs:label "authentificationType" ;
+                                                <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+
+
+###  https://w3id.org/omicron#endpoint
+<https://w3id.org/omicron#endpoint> rdf:type owl:ObjectProperty ;
+                                    rdfs:isDefinedBy "This relation is intended to define the Endpoint for a certain Resource" ,
+                                                     "https://w3id.org/omicron#" ;
+                                    rdfs:label "endpoint" ;
+                                    <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+
+
+###  https://w3id.org/omicron#informationIn
+<https://w3id.org/omicron#informationIn> rdf:type owl:ObjectProperty ;
+                                         rdfs:comment "Relation that link an entity and the resource where its information is stored in."@en ;
+                                         rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                         rdfs:label "informationIn"@en ;
+                                         <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/BFO_0000001
+<http://purl.obolibrary.org/obo/BFO_0000001> rdf:type owl:Class ;
+                                             rdfs:label "entity"@en .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://w3id.org/express#STRING> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject> ;
+                                                                                               owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject> ;
+                                                                                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                               owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                                             ] .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition> ;
+                                                                                      owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates>
+                                                                                    ] .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart> rdf:type owl:Class ;
+                                                                        owl:equivalentClass <https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem> ;
+                                                                        rdfs:subClassOf <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition> ,
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart> ;
+                                                                                          owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum>
+                                                                                        ] .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> rdf:type owl:Class .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                      owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                    ] ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                      owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                    ] .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot> ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                owl:allValuesFrom <https://w3id.org/idsa/core/Resource>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <https://w3id.org/idsa/core/Resource>
+                                                                                              ] .
+
+
+###  http://w3id.org/omicronBarriersMaintenance
+<http://w3id.org/omicronBarriersMaintenance> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                             rdfs:comment "Barriers maintenance process"@en ;
+                                             rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                             rdfs:label "Barriers Maintenance"@en ;
+                                             <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity
+<https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                                                 owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                                               ] ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                                 owl:allValuesFrom <https://w3id.org/idsa/core/Resource>
+                                                                                                               ] ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                                 owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                                                               ] ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                 owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                                               ] ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                 owl:onClass <https://w3id.org/idsa/core/Resource>
+                                                                                                               ] ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                 owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                                                               ] .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity
+<https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem
+<https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity> ,
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                                                                                 owl:allValuesFrom <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess>
+                                                                                                               ] .
+
+
+###  https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess
+<https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000066> ;
+                                                                                                owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                                owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                owl:allValuesFrom <https://w3id.org/idsa/core/Resource>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <https://w3id.org/idsa/core/Resource>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000066> ;
+                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                              ] .
+
+
+###  https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess
+<https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000066> ;
+                                                                                                                      owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                                                                    ] ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                                                      owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                                                    ] ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                                      owl:allValuesFrom <https://w3id.org/idsa/core/Resource>
+                                                                                                                    ] ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                      owl:onClass <https://w3id.org/idsa/core/Resource>
+                                                                                                                    ] ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000066> ;
+                                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                      owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                                                                    ] ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                      owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                                                                                    ] .
+
+
+###  https://w3id.org/express#STRING
+<https://w3id.org/express#STRING> rdf:type owl:Class .
+
+
+###  https://w3id.org/idsa/core/AuthInfo
+<https://w3id.org/idsa/core/AuthInfo> rdf:type owl:Class .
+
+
+###  https://w3id.org/idsa/core/GenericEndpoint
+<https://w3id.org/idsa/core/GenericEndpoint> rdf:type owl:Class .
+
+
+###  https://w3id.org/idsa/core/Resource
+<https://w3id.org/idsa/core/Resource> rdf:type owl:Class ;
+                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                        owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <https://w3id.org/omicron#authentificationType> ;
+                                                        owl:allValuesFrom <https://w3id.org/idsa/core/AuthInfo>
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <https://w3id.org/omicron#endpoint> ;
+                                                        owl:allValuesFrom <https://w3id.org/idsa/core/GenericEndpoint>
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId>
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <https://w3id.org/omicron#authentificationType> ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass <https://w3id.org/idsa/core/AuthInfo>
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <https://w3id.org/omicron#endpoint> ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass <https://w3id.org/idsa/core/GenericEndpoint>
+                                                      ] .
+
+
+###  https://w3id.org/omicron#AsphaltMixEvolution
+<https://w3id.org/omicron#AsphaltMixEvolution> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                 owl:allValuesFrom <https://w3id.org/omicron#SurfaceRehabilitationMaintenance>
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                 owl:allValuesFrom <https://w3id.org/omicron#TimeSeries>
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass <https://w3id.org/omicron#SurfaceRehabilitationMaintenance>
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass <https://w3id.org/omicron#TimeSeries>
+                                                               ] ;
+                                               rdfs:comment "This class is intended to represent Asphalt Mix parameters evolution related information"@en ;
+                                               rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                               rdfs:label "Asphalt Mix Evolution"@en ;
+                                               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#Asset
+<https://w3id.org/omicron#Asset> rdf:type owl:Class ;
+                                 rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                   owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                   owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                 ] ;
+                                 rdfs:comment "This class is intended to represent information related to an asset"@en ;
+                                 rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                 rdfs:label "Asset"@en ;
+                                 <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#BIMServer
+<https://w3id.org/omicron#BIMServer> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/idsa/core/Resource> ;
+                                     rdfs:comment "This class is intended to define BIM Server sources"@en ;
+                                     rdfs:isDefinedBy "https://w3id.org/omicron#"@en ;
+                                     rdfs:label "BIMServer"@en ;
+                                     <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#CameraRawImages
+<https://w3id.org/omicron#CameraRawImages> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                             owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                           ] ;
+                                           rdfs:comment "This class is intended to represent camera's raw images informartion"@en ;
+                                           rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                           rdfs:label "Camera raw images"@en ;
+                                           <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#CleaningMaintenance
+<https://w3id.org/omicron#CleaningMaintenance> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                               rdfs:comment "Cleaning maintenance process"@en ;
+                                               rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                               rdfs:label "Cleaning Maintenance"@en ;
+                                               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#ConesMaintenance
+<https://w3id.org/omicron#ConesMaintenance> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                            rdfs:comment "Cones maintenance process"@en ;
+                                            rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                            rdfs:label "Cones Maintenance"@en ;
+                                            <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#CrackCharacterization
+<https://w3id.org/omicron#CrackCharacterization> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                   owl:allValuesFrom <https://w3id.org/omicron#CrackSealingMaintenance>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                   owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                   owl:onClass <https://w3id.org/omicron#CrackSealingMaintenance>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                   owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                 ] ;
+                                                 rdfs:comment "This class is intended to represent Crack Characterization related information"@en ;
+                                                 rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                 rdfs:label "Crack Characterization"@en ;
+                                                 <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#CrackSealingMaintenance
+<https://w3id.org/omicron#CrackSealingMaintenance> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                                   rdfs:comment "Crack sealing Maintenance process"@en ;
+                                                   rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                                   rdfs:label "Crack Sealing Maintenance"@en ;
+                                                   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#DeviationDegree
+<https://w3id.org/omicron#DeviationDegree> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                             owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                             owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                           ] ;
+                                           rdfs:comment "This class is intended to represent terrestian vechicle's deviation degree related information"@en ;
+                                           rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                           rdfs:label "Deviation degree"@en ;
+                                           <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#ExternalConditions
+<https://w3id.org/omicron#ExternalConditions> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                              ] ,
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                owl:allValuesFrom <https://w3id.org/omicron#TimeSeries>
+                                                              ] ,
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                              ] ,
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                owl:onClass <https://w3id.org/omicron#TimeSeries>
+                                                              ] ;
+                                              rdfs:comment "This class is intended to represent information related to external conditions such as traffic, environmetal conditions, ..."@en ;
+                                              rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                              <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#FileStorage
+<https://w3id.org/omicron#FileStorage> rdf:type owl:Class ;
+                                       rdfs:subClassOf <https://w3id.org/idsa/core/Resource> ;
+                                       rdfs:comment "This class is intended to define File Storage sources"@en ;
+                                       rdfs:isDefinedBy "https://w3id.org/omicron#"@en ;
+                                       rdfs:label "FileStorage"@en ;
+                                       <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#IRI
+<https://w3id.org/omicron#IRI> rdf:type owl:Class ;
+                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                 owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                 owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass <https://w3id.org/omicron#FileStorage>
+                                               ] ;
+                               rdfs:comment "This class is intended to represent IRI measurement informartion"@en ;
+                               rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                               rdfs:label "IRI"@en ;
+                               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#InspectionPointCloud
+<https://w3id.org/omicron#InspectionPointCloud> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                  owl:allValuesFrom <https://w3id.org/omicron#UAVInspection>
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                  owl:onClass <https://w3id.org/omicron#UAVInspection>
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                  owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                ] ;
+                                                rdfs:comment "This class is intended to represent  related informartion"@en ;
+                                                rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                rdfs:label "Inspection PointCloud"@en ;
+                                                <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#InspectionResultDefinition
+<https://w3id.org/omicron#InspectionResultDefinition> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                        owl:allValuesFrom <https://w3id.org/omicron#UAVInspection>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                        owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <https://w3id.org/omicron#UAVInspection>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                      ] ;
+                                                      rdfs:comment "This class is intended to represent inspection results definition related informartion"@en ;
+                                                      rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                      rdfs:label "Inspection Result Definition"@en ;
+                                                      <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#LaneMarkersMaintenance
+<https://w3id.org/omicron#LaneMarkersMaintenance> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                                  rdfs:comment "Lane Markers Maintenance process"@en ;
+                                                  rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                                  rdfs:label "Lane Markers Maintenance"@en ;
+                                                  <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#MaintenancePrioritizationSnapshot
+<https://w3id.org/omicron#MaintenancePrioritizationSnapshot> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                               owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                               owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                             ] ;
+                                                             rdfs:comment "This class is intended to represent information related to the maintenance activities prioritization"@en ;
+                                                             rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                             rdfs:label "Maintenance Prioritization Snapshot"@en ;
+                                                             <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#MaintenanceTaskSnapshot
+<https://w3id.org/omicron#MaintenanceTaskSnapshot> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                     owl:allValuesFrom <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                     owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                   ] ;
+                                                   rdfs:comment "This class is intended to represent information related to the planned maintenance activities"@en ;
+                                                   rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#Map
+<https://w3id.org/omicron#Map> rdf:type owl:Class ;
+                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                 owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                 owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass <https://w3id.org/omicron#FileStorage>
+                                               ] ;
+                               rdfs:comment "This class is intended to represent information related to a map"@en ;
+                               rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                               rdfs:label "Map"@en ;
+                               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#MarkCharacterization
+<https://w3id.org/omicron#MarkCharacterization> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                  owl:allValuesFrom <https://w3id.org/omicron#CrackSealingMaintenance>
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                  owl:onClass <https://w3id.org/omicron#CrackSealingMaintenance>
+                                                                ] ;
+                                                rdfs:comment "This class is intended to represent Mark Characterizationrelated information"@en ;
+                                                rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                rdfs:label "Mark Characterization"@en ;
+                                                <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#MinorDefect
+<https://w3id.org/omicron#MinorDefect> rdf:type owl:Class ;
+                                       rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                         owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                         owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                         owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                         owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                       ] ;
+                                       rdfs:comment "This class is intended to represent minor defect related informartion"@en ;
+                                       rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                       rdfs:label "Minor Defect"@en ;
+                                       <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#OtherSignalMaintenance
+<https://w3id.org/omicron#OtherSignalMaintenance> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                                  rdfs:comment "Other Signal Maintenance process"@en ;
+                                                  rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                                  rdfs:label "Other Signal Maintenance"@en ;
+                                                  <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#Pathology
+<https://w3id.org/omicron#Pathology> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                       owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                                     ] ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                       owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                     ] ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                                     ] ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                     ] ;
+                                     rdfs:comment "This class is intended to represent Pathology related informartion"@en ;
+                                     rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                     rdfs:label "Pathology"@en ;
+                                     <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#PlannedMaintenanceSnapshot
+<https://w3id.org/omicron#PlannedMaintenanceSnapshot> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                        owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                        owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                      ] ;
+                                                      rdfs:comment "This class is intended to represent information related to the maintenance tasks to be performed for a certain maintenance activity process"@en ;
+                                                      rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                      rdfs:label "Planned Maintenance Snapshot"@en ;
+                                                      <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#RDMBS
+<https://w3id.org/omicron#RDMBS> rdf:type owl:Class ;
+                                 rdfs:subClassOf <https://w3id.org/idsa/core/Resource> ;
+                                 rdfs:comment "This class is intended to define relational data base sources"@en ;
+                                 rdfs:isDefinedBy "https://w3id.org/omicron#"@en ;
+                                 rdfs:label "RDBMS"@en ;
+                                 <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#RoadCondition
+<https://w3id.org/omicron#RoadCondition> rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                           owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                           owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                         ] ;
+                                         rdfs:comment "This class is intended to represent information related to road conditions"@en ;
+                                         rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                         rdfs:label "Road Condition"@en ;
+                                         <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#SFC
+<https://w3id.org/omicron#SFC> rdf:type owl:Class ;
+                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                 owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                 owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isOutputOf> ;
+                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass <https://w3id.org/omicron#FileStorage>
+                                               ] ;
+                               rdfs:comment "This class is intended to represent SFC measurement informartion"@en ;
+                               rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                               rdfs:label "SFC"@en ;
+                               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#SurfaceRehabilitationMaintenance
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenance> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> ;
+                                                            rdfs:comment "Surface Rehabilitation Maintenance process"@en ;
+                                                            rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                                            rdfs:label "Surface Rehabilitation Maintenance"@en ;
+                                                            <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult
+<https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                                    owl:allValuesFrom <https://w3id.org/omicron#SurfaceRehabilitationMaintenance>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                    owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                    owl:onClass <https://w3id.org/omicron#SurfaceRehabilitationMaintenance>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                    owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                                                  ] ;
+                                                                  rdfs:comment "This class is intended to represent Surface Rehabilitation Maintenance Result related information"@en ;
+                                                                  rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                                                  rdfs:label "Surface Rehabilitation Maintenance Result"@en ;
+                                                                  <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#TerrestialInspection
+<https://w3id.org/omicron#TerrestialInspection> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> ;
+                                                owl:disjointWith <https://w3id.org/omicron#UAVInspection> ;
+                                                rdfs:comment "Terrestial vehicle driven inspection process"@en ;
+                                                rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                                rdfs:label "Terrestial Inspection"@en ;
+                                                <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#TimeSeries
+<https://w3id.org/omicron#TimeSeries> rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://w3id.org/idsa/core/Resource> ;
+                                      rdfs:comment "This class is intended to define time series sources"@en ;
+                                      rdfs:isDefinedBy "https://w3id.org/omicron#"@en ;
+                                      rdfs:label "TimeSeries"@en ;
+                                      <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#UAVInspection
+<https://w3id.org/omicron#UAVInspection> rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess> ;
+                                         rdfs:comment "UAV devices driven inspection process"@en ;
+                                         rdfs:isDefinedBy "https://w3id.org/omicron#" ;
+                                         rdfs:label "UAV Inspection"@en ;
+                                         <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#UAVTrajectory
+<https://w3id.org/omicron#UAVTrajectory> rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                           owl:allValuesFrom <https://w3id.org/omicron#UAVInspection>
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                           owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass <https://w3id.org/omicron#UAVInspection>
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                         ] ;
+                                         rdfs:comment "This class is intended to represent UAV Trajectory information"@en ;
+                                         rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                         rdfs:label "UAV Trajectory"@en ;
+                                         <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#3DLaserScanningData
+<https://w3id.org/omicron#3DLaserScanningData> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                 owl:allValuesFrom <https://w3id.org/omicron#TerrestialInspection>
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                 owl:allValuesFrom <https://w3id.org/omicron#FileStorage>
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass <https://w3id.org/omicron#TerrestialInspection>
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass <https://w3id.org/omicron#FileStorage>
+                                                               ] ;
+                                               rdfs:comment "This class is intended to represent 3D laser scanning device generated data"@en ;
+                                               rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                               rdfs:label "3D laser scanning data"@en ;
+                                               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#3DModel
+<https://w3id.org/omicron#3DModel> rdf:type owl:Class ;
+                                   rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                     owl:allValuesFrom <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                     owl:allValuesFrom <https://w3id.org/omicron#BIMServer>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                     owl:onClass <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://w3id.org/omicron#informationIn> ;
+                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                     owl:onClass <https://w3id.org/omicron#BIMServer>
+                                                   ] ;
+                                   rdfs:comment "This class is intended to represent information related to 3D model"@en ;
+                                   rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                   rdfs:label "3DModel"@en ;
+                                   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT> rdf:type owl:NamedIndividual ,
+                                                                                 <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
