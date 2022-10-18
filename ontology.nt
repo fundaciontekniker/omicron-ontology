@@ -1,16 +1,16 @@
-<http://w3id.org/omicron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://w3id.org/omicron> <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by-nc/4.0/" .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/contributor> "Ignacio Lazaro <mailto:ignacio.lazaro@tekniker.es>\nFrancisco Javier Diez <mailto:fdiez"@tekniker.es> .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/created> "2022-10-11" .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/creator> "Izaskun Fernandez<mailto:izaskun.fernandez"@tekniker.es> .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/description> "The OMICRON Ontology" .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/description> "The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.\n\nThe OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269." .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/issued> "2022-10-13" .
-<http://w3id.org/omicron> <http://purl.org/dc/terms/title> "The OMICRON Ontology" .
-<http://w3id.org/omicron> <http://purl.org/ontology/bibo/status> "Work in Progress" .
-<http://w3id.org/omicron> <http://purl.org/vocab/vann/preferredNamespacePrefix> "omicron" .
-<http://w3id.org/omicron> <http://purl.org/vocab/vann/preferredNamespaceURI> "https://w3id.org/omicron#" .
-<http://w3id.org/omicron> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/omicron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/omicron> <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by-nc/4.0/" .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/contributor> "Ignacio Lazaro <mailto:ignacio.lazaro@tekniker.es>\nFrancisco Javier Diez <mailto:fdiez"@tekniker.es> .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/created> "2022-10-11" .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/creator> "Izaskun Fernandez<mailto:izaskun.fernandez"@tekniker.es> .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/description> "The OMICRON Ontology" .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/description> "The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.\n\nThe OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269." .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/issued> "2022-10-13" .
+<https://w3id.org/omicron> <http://purl.org/dc/terms/title> "The OMICRON Ontology" .
+<https://w3id.org/omicron> <http://purl.org/ontology/bibo/status> "Work in Progress" .
+<https://w3id.org/omicron> <http://purl.org/vocab/vann/preferredNamespacePrefix> "omicron" .
+<https://w3id.org/omicron> <http://purl.org/vocab/vann/preferredNamespaceURI> "https://w3id.org/omicron#" .
+<https://w3id.org/omicron> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # 
 # #################################################################
@@ -196,13 +196,13 @@ _:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://ww
 _:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 # 
-# http://w3id.org/omicronBarriersMaintenance
-<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
-<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Barriers maintenance process"@en .
-<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
-<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Barriers Maintenance"@en .
-<http://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+# https://w3id.org/omicronBarriersMaintenance
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Barriers maintenance process"@en .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Barriers Maintenance"@en .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
 # 
 # https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity
 <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

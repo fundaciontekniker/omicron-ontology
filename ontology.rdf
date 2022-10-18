@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="http://w3id.org/omicron">
+    <owl:Ontology rdf:about="https://w3id.org/omicron">
         <ns:license>https://creativecommons.org/licenses/by-nc/4.0/</ns:license>
         <terms:contributor xml:lang="tekniker.es&gt;">Ignacio Lazaro &lt;mailto:ignacio.lazaro@tekniker.es&gt;
 Francisco Javier Diez &lt;mailto:fdiez</terms:contributor>
@@ -39,12 +39,10 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://creativecommons.org/ns#license -->
-
 
     <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
     
@@ -52,13 +50,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://purl.org/dc/terms/contributor -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 
     <!-- http://purl.org/dc/terms/created -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
     
@@ -66,13 +62,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://purl.org/dc/terms/creator -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
     <!-- http://purl.org/dc/terms/description -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
@@ -80,13 +74,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://purl.org/dc/terms/issued -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
@@ -94,13 +86,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://purl.org/ontology/bibo/status -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
     
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
-
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
     
@@ -108,13 +98,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://purl.org/vocab/vann/preferredNamespaceURI -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceURI"/>
     
 
 
     <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
-
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
     
@@ -128,12 +116,10 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
-
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
         <rdfs:label>occurs in</rdfs:label>
@@ -143,20 +129,17 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot -->
 
-
     <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
     
 
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition -->
 
-
     <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition"/>
     
 
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart -->
-
 
     <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart">
         <rdfs:domain rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
@@ -168,13 +151,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject -->
 
-
     <owl:ObjectProperty rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
     
 
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/hasOutput -->
-
 
     <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/hasOutput">
         <owl:inverseOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
@@ -184,7 +165,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/isAbout -->
 
-
     <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isAbout">
         <owl:inverseOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
     </owl:ObjectProperty>
@@ -193,20 +173,17 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/isOutputOf -->
 
-
     <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
     
 
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf -->
 
-
     <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
     
 
 
     <!-- https://w3id.org/omicron#authentificationType -->
-
 
     <owl:ObjectProperty rdf:about="https://w3id.org/omicron#authentificationType">
         <rdfs:comment>This relation is intended to define the AuthIfo for a certain Resource</rdfs:comment>
@@ -219,7 +196,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#endpoint -->
 
-
     <owl:ObjectProperty rdf:about="https://w3id.org/omicron#endpoint">
         <rdfs:isDefinedBy>This relation is intended to define the Endpoint for a certain Resource</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
@@ -230,7 +206,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#informationIn -->
-
 
     <owl:ObjectProperty rdf:about="https://w3id.org/omicron#informationIn">
         <rdfs:comment xml:lang="en">Relation that link an entity and the resource where its information is stored in.</rdfs:comment>
@@ -249,12 +224,10 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
-
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
         <rdfs:label xml:lang="en">entity</rdfs:label>
@@ -264,7 +237,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId -->
 
-
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId">
         <rdfs:subClassOf rdf:resource="https://w3id.org/express#STRING"/>
     </owl:Class>
@@ -273,7 +245,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition -->
 
-
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition">
         <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
     </owl:Class>
@@ -281,7 +252,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates -->
-
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates">
         <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
@@ -304,7 +274,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad -->
 
-
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad">
         <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
         <rdfs:subClassOf>
@@ -318,7 +287,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart -->
-
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart">
         <owl:equivalentClass rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem"/>
@@ -335,13 +303,11 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum -->
 
-
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
     
 
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot -->
-
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -364,7 +330,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement -->
 
-
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement">
         <rdfs:subClassOf rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
         <rdfs:subClassOf>
@@ -384,21 +349,7 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
     
 
 
-    <!-- http://w3id.org/omicronBarriersMaintenance -->
-
-
-    <owl:Class rdf:about="http://w3id.org/omicronBarriersMaintenance">
-        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
-        <rdfs:comment xml:lang="en">Barriers maintenance process</rdfs:comment>
-        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Barriers Maintenance</rdfs:label>
-        <ns1:term_status xml:lang="en">testing</ns1:term_status>
-    </owl:Class>
-    
-
-
     <!-- https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity -->
-
 
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
@@ -447,7 +398,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity -->
 
-
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     </owl:Class>
@@ -456,7 +406,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem -->
 
-
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     </owl:Class>
@@ -464,7 +413,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity -->
-
 
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
@@ -479,7 +427,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess -->
-
 
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -528,7 +475,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess -->
 
-
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdfs:subClassOf>
@@ -574,8 +520,19 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
     
 
 
-    <!-- https://w3id.org/express#STRING -->
+    <!-- https://w3id.org/omicronBarriersMaintenance -->
 
+    <owl:Class rdf:about="https://w3id.org/omicronBarriersMaintenance">
+        <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <rdfs:comment xml:lang="en">Barriers maintenance process</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/omicron#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Barriers Maintenance</rdfs:label>
+        <ns1:term_status xml:lang="en">testing</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/express#STRING -->
 
     <owl:Class rdf:about="https://w3id.org/express#STRING"/>
     
@@ -583,20 +540,17 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/idsa/core/AuthInfo -->
 
-
     <owl:Class rdf:about="https://w3id.org/idsa/core/AuthInfo"/>
     
 
 
     <!-- https://w3id.org/idsa/core/GenericEndpoint -->
 
-
     <owl:Class rdf:about="https://w3id.org/idsa/core/GenericEndpoint"/>
     
 
 
     <!-- https://w3id.org/idsa/core/Resource -->
-
 
     <owl:Class rdf:about="https://w3id.org/idsa/core/Resource">
         <rdfs:subClassOf>
@@ -644,7 +598,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#AsphaltMixEvolution -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#AsphaltMixEvolution">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -682,7 +635,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#Asset -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#Asset">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -722,7 +674,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#BIMServer -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#BIMServer">
         <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
         <rdfs:comment xml:lang="en">This class is intended to define BIM Server sources</rdfs:comment>
@@ -734,7 +685,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#CameraRawImages -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#CameraRawImages">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -768,7 +718,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#CleaningMaintenance -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#CleaningMaintenance">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
         <rdfs:comment xml:lang="en">Cleaning maintenance process</rdfs:comment>
@@ -781,7 +730,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#ConesMaintenance -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#ConesMaintenance">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
         <rdfs:comment xml:lang="en">Cones maintenance process</rdfs:comment>
@@ -793,7 +741,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#CrackCharacterization -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#CrackCharacterization">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -833,7 +780,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#CrackSealingMaintenance -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#CrackSealingMaintenance">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
         <rdfs:comment xml:lang="en">Crack sealing Maintenance process</rdfs:comment>
@@ -845,7 +791,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#DeviationDegree -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#DeviationDegree">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -885,7 +830,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#ExternalConditions -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#ExternalConditions">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -923,7 +867,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#FileStorage -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#FileStorage">
         <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
         <rdfs:comment xml:lang="en">This class is intended to define File Storage sources</rdfs:comment>
@@ -935,7 +878,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#IRI -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#IRI">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
@@ -975,7 +917,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#InspectionPointCloud -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#InspectionPointCloud">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -1007,7 +948,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#InspectionResultDefinition -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#InspectionResultDefinition">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1047,7 +987,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#LaneMarkersMaintenance -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#LaneMarkersMaintenance">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
         <rdfs:comment xml:lang="en">Lane Markers Maintenance process</rdfs:comment>
@@ -1059,7 +998,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#MaintenancePrioritizationSnapshot -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#MaintenancePrioritizationSnapshot">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1099,7 +1037,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#MaintenanceTaskSnapshot -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#MaintenanceTaskSnapshot">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -1136,7 +1073,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#Map -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#Map">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1176,7 +1112,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#MarkCharacterization -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#MarkCharacterization">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -1201,7 +1136,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#MinorDefect -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#MinorDefect">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
@@ -1241,7 +1175,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#OtherSignalMaintenance -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#OtherSignalMaintenance">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
         <rdfs:comment xml:lang="en">Other Signal Maintenance process</rdfs:comment>
@@ -1253,7 +1186,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#Pathology -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#Pathology">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
@@ -1293,7 +1225,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#PlannedMaintenanceSnapshot -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#PlannedMaintenanceSnapshot">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -1332,7 +1263,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#RDMBS -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#RDMBS">
         <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
         <rdfs:comment xml:lang="en">This class is intended to define relational data base sources</rdfs:comment>
@@ -1344,7 +1274,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#RoadCondition -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#RoadCondition">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1384,7 +1313,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#SFC -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#SFC">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -1423,7 +1351,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#SurfaceRehabilitationMaintenance -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#SurfaceRehabilitationMaintenance">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
         <rdfs:comment xml:lang="en">Surface Rehabilitation Maintenance process</rdfs:comment>
@@ -1435,7 +1362,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1475,7 +1401,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#TerrestialInspection -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#TerrestialInspection">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
         <owl:disjointWith rdf:resource="https://w3id.org/omicron#UAVInspection"/>
@@ -1489,7 +1414,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#TimeSeries -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#TimeSeries">
         <rdfs:subClassOf rdf:resource="https://w3id.org/idsa/core/Resource"/>
         <rdfs:comment xml:lang="en">This class is intended to define time series sources</rdfs:comment>
@@ -1502,7 +1426,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#UAVInspection -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#UAVInspection">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
         <rdfs:comment xml:lang="en">UAV devices driven inspection process</rdfs:comment>
@@ -1514,7 +1437,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#UAVTrajectory -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#UAVTrajectory">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1554,7 +1476,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
     <!-- https://w3id.org/omicron#3DLaserScanningData -->
 
-
     <owl:Class rdf:about="https://w3id.org/omicron#3DLaserScanningData">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
@@ -1592,7 +1513,6 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
     <!-- https://w3id.org/omicron#3DModel -->
-
 
     <owl:Class rdf:about="https://w3id.org/omicron#3DModel">
         <rdfs:subClassOf rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
@@ -1638,12 +1558,10 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
 
 
     <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT -->
-
 
     <owl:NamedIndividual rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT">
         <rdf:type rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
@@ -1652,6 +1570,5 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
 
 
 
-<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
-
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

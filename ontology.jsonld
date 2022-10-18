@@ -1418,7 +1418,7 @@
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://w3id.org/omicron",
+  "@id" : "https://w3id.org/omicron",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://creativecommons.org/ns#license" : [ {
     "@value" : "https://creativecommons.org/licenses/by-nc/4.0/"
@@ -1459,7 +1459,7 @@
     "@value" : "0.1"
   } ]
 }, {
-  "@id" : "http://w3id.org/omicronBarriersMaintenance",
+  "@id" : "https://w3id.org/omicronBarriersMaintenance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
