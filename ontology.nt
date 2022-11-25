@@ -120,6 +120,18 @@
 # 
 # #################################################################
 # #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/omicron#url
+<https://w3id.org/omicron#url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
 # #    Classes
 # #
 # #################################################################
@@ -195,14 +207,6 @@ _:genid8 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/idsa/core/Res
 _:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/omicron#informationIn> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-# 
-# https://w3id.org/omicronBarriersMaintenance
-<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
-<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Barriers maintenance process"@en .
-<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
-<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Barriers Maintenance"@en .
-<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
 # 
 # https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity
 <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -312,6 +316,14 @@ _:genid27 <http://www.w3.org/2002/07/owl#onClass> <http://standards.buildingsmar
 _:genid27 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot> .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://w3id.org/omicronBarriersMaintenance
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess> .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Barriers maintenance process"@en .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/omicron#" .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Barriers Maintenance"@en .
+<https://w3id.org/omicronBarriersMaintenance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
 # 
 # https://w3id.org/express#STRING
 <https://w3id.org/express#STRING> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

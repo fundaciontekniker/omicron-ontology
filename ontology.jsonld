@@ -1418,68 +1418,6 @@
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/omicron",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://creativecommons.org/ns#license" : [ {
-    "@value" : "https://creativecommons.org/licenses/by-nc/4.0/"
-  } ],
-  "http://purl.org/dc/terms/contributor" : [ {
-    "@language" : "tekniker.es>",
-    "@value" : "Ignacio Lazaro <mailto:ignacio.lazaro@tekniker.es>\nFrancisco Javier Diez <mailto:fdiez"
-  } ],
-  "http://purl.org/dc/terms/created" : [ {
-    "@value" : "2022-10-11"
-  } ],
-  "http://purl.org/dc/terms/creator" : [ {
-    "@language" : "tekniker.es>",
-    "@value" : "Izaskun Fernandez<mailto:izaskun.fernandez"
-  } ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@value" : "The OMICRON Ontology"
-  }, {
-    "@value" : "The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.\n\nThe OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269."
-  } ],
-  "http://purl.org/dc/terms/issued" : [ {
-    "@value" : "2022-10-13"
-  } ],
-  "http://purl.org/dc/terms/title" : [ {
-    "@value" : "The OMICRON Ontology"
-  } ],
-  "http://purl.org/ontology/bibo/status" : [ {
-    "@value" : "Work in Progress"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@value" : "omicron"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespaceURI" : [ {
-    "@value" : "https://w3id.org/omicron#"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "0.1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/omicronBarriersMaintenance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Barriers maintenance process"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/omicron#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Barriers Maintenance"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"
-  } ],
-  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
-    "@language" : "en",
-    "@value" : "testing"
-  } ]
-}, {
   "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1598,6 +1536,47 @@
     "@id" : "_:genid32"
   }, {
     "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "https://w3id.org/omicron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by-nc/4.0/"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "tekniker.es>",
+    "@value" : "Ignacio Lazaro <mailto:ignacio.lazaro@tekniker.es>\nFrancisco Javier Diez <mailto:fdiez"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-10-11"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "tekniker.es>",
+    "@value" : "Izaskun Fernandez<mailto:izaskun.fernandez"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "The OMICRON Ontology"
+  }, {
+    "@value" : "The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.\n\nThe OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2022-10-13"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The OMICRON Ontology"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@value" : "Work in Progress"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "omicron"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceURI" : [ {
+    "@value" : "https://w3id.org/omicron#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1"
   } ]
 }, {
   "@id" : "https://w3id.org/omicron#3DLaserScanningData",
@@ -2524,6 +2503,30 @@
     "@value" : "informationIn"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "testing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/omicron#url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/omicronBarriersMaintenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Barriers maintenance process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/omicron#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barriers Maintenance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@language" : "en",
     "@value" : "testing"
   } ]
 } ]

@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "tekniker.es>", "undefined" ],
-    "baseIris" : [ "https://w3id.org/idsa/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://purl.industrialontologies.org/ontology/maintenance/Maintenance", "http://purl.obolibrary.org/obo", "https://w3id.org/omicron", "http://www.w3.org/2000/01/rdf-schema", "https://purl.industrialontologies.org/ontology/core/Core", "http://www.w3.org/2001/XMLSchema", "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL", "http://w3id.org", "https://w3id.org/express" ],
+    "baseIris" : [ "https://w3id.org/idsa/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://purl.industrialontologies.org/ontology/maintenance/Maintenance", "https://w3id.org", "http://purl.obolibrary.org/obo", "https://w3id.org/omicron", "http://www.w3.org/2000/01/rdf-schema", "https://purl.industrialontologies.org/ontology/core/Core", "http://www.w3.org/2001/XMLSchema", "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL", "https://w3id.org/express" ],
     "title" : {
       "undefined" : "The OMICRON Ontology"
     },
-    "iri" : "http://w3id.org/omicron",
+    "iri" : "https://w3id.org/omicron",
     "version" : "0.1",
     "author" : [ "Izaskun Fernandez<mailto:izaskun.fernandez" ],
     "description" : {
@@ -43,16 +43,16 @@
         "value" : "omicron",
         "type" : "label"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "0.1",
-        "type" : "label"
-      } ],
       "preferredNamespaceURI" : [ {
         "identifier" : "preferredNamespaceURI",
         "language" : "undefined",
         "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.1",
         "type" : "label"
       } ],
       "title" : [ {
@@ -77,13 +77,13 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "3",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
     "id" : "8",
@@ -101,25 +101,25 @@
     "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "38",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "41",
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
     "type" : "owl:Class"
   }, {
     "id" : "52",
     "type" : "owl:Class"
   }, {
-    "id" : "79",
+    "id" : "69",
     "type" : "owl:Class"
   }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "27",
@@ -128,129 +128,132 @@
     "id" : "11",
     "type" : "owl:Class"
   }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "66",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "85",
     "type" : "owl:Class"
   }, {
-    "id" : "40",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "84",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "105",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "35",
-    "type" : "owl:equivalentClass"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "123",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
-    "type" : "owl:Class"
-  }, {
-    "id" : "42",
+    "id" : "55",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "96",
+    "id" : "109",
     "type" : "owl:Class"
   }, {
-    "id" : "81",
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
     "type" : "owl:equivalentClass"
   }, {
-    "id" : "57",
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "95",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "58",
     "type" : "owl:Class"
   }, {
     "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "20",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "107",
+    "id" : "111",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "115",
+    "id" : "119",
     "type" : "owl:Class"
   }, {
-    "id" : "114",
+    "id" : "118",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "47",
+    "id" : "83",
     "type" : "owl:Class"
   }, {
-    "id" : "59",
+    "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
     "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "98",
+    "id" : "102",
     "type" : "owl:Class"
   }, {
     "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "78",
+    "id" : "79",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://w3id.org/omicron#MaintenancePrioritizationSnapshot",
-    "baseIri" : "https://w3id.org/omicron",
+    "iri" : "https://w3id.org/omicronBarriersMaintenance",
+    "baseIri" : "https://w3id.org",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3.id.org/omicron#",
+        "value" : "https://w3id.org/omicron#",
         "type" : "label"
       } ],
       "term_status" : [ {
@@ -261,15 +264,15 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "MaintenancePrioritizationSnapshot",
-      "en" : "Maintenance Prioritization Snapshot"
+      "IRI-based" : "omicronBarriersMaintenance",
+      "en" : "Barriers Maintenance"
     },
     "comment" : {
-      "en" : "This class is intended to represent information related to the maintenance activities prioritization"
+      "en" : "Barriers maintenance process"
     },
     "attributes" : [ "external" ],
-    "id" : "3",
-    "superClasses" : [ "4" ]
+    "id" : "0",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/omicron#InspectionResultDefinition",
     "baseIri" : "https://w3id.org/omicron",
@@ -295,18 +298,17 @@
     "comment" : {
       "en" : "This class is intended to represent inspection results definition related informartion"
     },
-    "attributes" : [ "external" ],
     "id" : "5",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://w3id.org/omicronBarriersMaintenance",
-    "baseIri" : "http://w3id.org",
+    "iri" : "https://w3id.org/omicron#MaintenancePrioritizationSnapshot",
+    "baseIri" : "https://w3id.org/omicron",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
+        "value" : "https://w3.id.org/omicron#",
         "type" : "label"
       } ],
       "term_status" : [ {
@@ -317,15 +319,14 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "omicronBarriersMaintenance",
-      "en" : "Barriers Maintenance"
+      "IRI-based" : "MaintenancePrioritizationSnapshot",
+      "en" : "Maintenance Prioritization Snapshot"
     },
     "comment" : {
-      "en" : "Barriers maintenance process"
+      "en" : "This class is intended to represent information related to the maintenance activities prioritization"
     },
-    "attributes" : [ "external" ],
-    "id" : "6",
-    "superClasses" : [ "7" ]
+    "id" : "7",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#MarkCharacterization",
     "baseIri" : "https://w3id.org/omicron",
@@ -351,9 +352,8 @@
     "comment" : {
       "en" : "This class is intended to represent Mark Characterizationrelated information"
     },
-    "attributes" : [ "external" ],
     "id" : "8",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#CrackSealingMaintenance",
     "baseIri" : "https://w3id.org/omicron",
@@ -379,9 +379,8 @@
     "comment" : {
       "en" : "Crack sealing Maintenance process"
     },
-    "attributes" : [ "external" ],
     "id" : "9",
-    "superClasses" : [ "7" ]
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/omicron#UAVTrajectory",
     "baseIri" : "https://w3id.org/omicron",
@@ -407,9 +406,8 @@
     "comment" : {
       "en" : "This class is intended to represent UAV Trajectory information"
     },
-    "attributes" : [ "external" ],
     "id" : "15",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -451,9 +449,8 @@
     "comment" : {
       "en" : "Lane Markers Maintenance process"
     },
-    "attributes" : [ "external" ],
     "id" : "25",
-    "superClasses" : [ "7" ]
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
@@ -461,10 +458,21 @@
     "label" : {
       "IRI-based" : "MeasurementInformationContentEntity"
     },
-    "subClasses" : [ "1", "40", "41", "42" ],
+    "subClasses" : [ "3", "39", "40", "41" ],
     "attributes" : [ "external" ],
-    "id" : "38",
-    "superClasses" : [ "39" ]
+    "id" : "37",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot",
+    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IfcRoot"
+    },
+    "subClasses" : [ "53", "43" ],
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/omicron#Pathology",
     "baseIri" : "https://w3id.org/omicron",
@@ -490,20 +498,8 @@
     "comment" : {
       "en" : "This class is intended to represent Pathology related informartion"
     },
-    "attributes" : [ "external" ],
-    "id" : "41",
-    "superClasses" : [ "38" ]
-  }, {
-    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot",
-    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IfcRoot"
-    },
-    "subClasses" : [ "54", "37" ],
-    "attributes" : [ "external" ],
-    "id" : "52",
-    "superClasses" : [ "53" ]
+    "id" : "40",
+    "superClasses" : [ "37" ]
   }, {
     "iri" : "https://w3id.org/omicron#3DLaserScanningData",
     "baseIri" : "https://w3id.org/omicron",
@@ -529,9 +525,8 @@
     "comment" : {
       "en" : "This class is intended to represent 3D laser scanning device generated data"
     },
-    "attributes" : [ "external" ],
-    "id" : "79",
-    "superClasses" : [ "4" ]
+    "id" : "80",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000001",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -540,9 +535,9 @@
       "IRI-based" : "BFO_0000001",
       "en" : "entity"
     },
-    "subClasses" : [ "39", "52", "81", "68", "7" ],
+    "subClasses" : [ "38", "51", "82", "69", "1" ],
     "attributes" : [ "external" ],
-    "id" : "53"
+    "id" : "52"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
@@ -550,10 +545,10 @@
     "label" : {
       "IRI-based" : "MeasurementProcess"
     },
-    "subClasses" : [ "82", "2" ],
+    "subClasses" : [ "83", "4" ],
     "attributes" : [ "external" ],
-    "id" : "68",
-    "superClasses" : [ "53" ]
+    "id" : "69",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/omicron#SurfaceRehabilitationMaintenance",
     "baseIri" : "https://w3id.org/omicron",
@@ -579,9 +574,8 @@
     "comment" : {
       "en" : "Surface Rehabilitation Maintenance process"
     },
-    "attributes" : [ "external" ],
-    "id" : "61",
-    "superClasses" : [ "7" ]
+    "id" : "59",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/omicron#Asset",
     "baseIri" : "https://w3id.org/omicron",
@@ -607,9 +601,8 @@
     "comment" : {
       "en" : "This class is intended to represent information related to an asset"
     },
-    "attributes" : [ "external" ],
     "id" : "27",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#FileStorage",
     "baseIri" : "https://w3id.org/omicron",
@@ -635,9 +628,8 @@
     "comment" : {
       "en" : "This class is intended to define File Storage sources"
     },
-    "attributes" : [ "external" ],
     "id" : "11",
-    "superClasses" : [ "47" ]
+    "superClasses" : [ "48" ]
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
@@ -645,10 +637,10 @@
     "label" : {
       "IRI-based" : "InformationContentEntity"
     },
-    "subClasses" : [ "38", "4" ],
+    "subClasses" : [ "37", "6" ],
     "attributes" : [ "external" ],
-    "id" : "39",
-    "superClasses" : [ "53" ]
+    "id" : "38",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/idsa/core/GenericEndpoint",
     "baseIri" : "https://w3id.org/idsa/core",
@@ -657,7 +649,7 @@
       "IRI-based" : "GenericEndpoint"
     },
     "attributes" : [ "external" ],
-    "id" : "66"
+    "id" : "67"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
@@ -665,10 +657,10 @@
     "label" : {
       "IRI-based" : "DescriptiveInformationContentEntity"
     },
-    "subClasses" : [ "79", "5", "3", "84", "31", "8", "57", "96", "98", "15", "20", "13", "105", "107", "27", "18", "78", "86" ],
+    "subClasses" : [ "80", "5", "7", "85", "31", "8", "58", "100", "102", "15", "21", "13", "109", "111", "27", "18", "79", "87" ],
     "attributes" : [ "external" ],
-    "id" : "4",
-    "superClasses" : [ "39" ]
+    "id" : "6",
+    "superClasses" : [ "38" ]
   }, {
     "iri" : "https://w3id.org/omicron#SFC",
     "baseIri" : "https://w3id.org/omicron",
@@ -694,9 +686,8 @@
     "comment" : {
       "en" : "This class is intended to represent SFC measurement informartion"
     },
-    "attributes" : [ "external" ],
-    "id" : "40",
-    "superClasses" : [ "38" ]
+    "id" : "39",
+    "superClasses" : [ "37" ]
   }, {
     "iri" : "https://w3id.org/omicron#OtherSignalMaintenance",
     "baseIri" : "https://w3id.org/omicron",
@@ -722,9 +713,8 @@
     "comment" : {
       "en" : "Other Signal Maintenance process"
     },
-    "attributes" : [ "external" ],
-    "id" : "71",
-    "superClasses" : [ "7" ]
+    "id" : "75",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/omicron#RoadCondition",
     "baseIri" : "https://w3id.org/omicron",
@@ -750,9 +740,8 @@
     "comment" : {
       "en" : "This class is intended to represent information related to road conditions"
     },
-    "attributes" : [ "external" ],
-    "id" : "84",
-    "superClasses" : [ "4" ]
+    "id" : "85",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -761,8 +750,8 @@
       "IRI-based" : "IfcRelAggregates"
     },
     "attributes" : [ "external" ],
-    "id" : "54",
-    "superClasses" : [ "52" ]
+    "id" : "53",
+    "superClasses" : [ "51" ]
   }, {
     "iri" : "https://w3id.org/omicron#BIMServer",
     "baseIri" : "https://w3id.org/omicron",
@@ -788,9 +777,8 @@
     "comment" : {
       "en" : "This class is intended to define BIM Server sources"
     },
-    "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "47" ]
+    "id" : "55",
+    "superClasses" : [ "48" ]
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess",
     "baseIri" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance",
@@ -798,10 +786,10 @@
     "label" : {
       "IRI-based" : "MaintenanceActivityProcess"
     },
-    "subClasses" : [ "114", "115", "9", "71", "61", "6", "25" ],
+    "subClasses" : [ "118", "119", "0", "9", "75", "59", "25" ],
     "attributes" : [ "external" ],
-    "id" : "7",
-    "superClasses" : [ "53" ]
+    "id" : "1",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/omicron#InspectionPointCloud",
     "baseIri" : "https://w3id.org/omicron",
@@ -827,9 +815,8 @@
     "comment" : {
       "en" : "This class is intended to represent  related informartion"
     },
-    "attributes" : [ "external" ],
-    "id" : "105",
-    "superClasses" : [ "4" ]
+    "id" : "109",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#ExternalConditions",
     "baseIri" : "https://w3id.org/omicron",
@@ -854,9 +841,8 @@
     "comment" : {
       "en" : "This class is intended to represent information related to external conditions such as traffic, environmetal conditions, ..."
     },
-    "attributes" : [ "external" ],
     "id" : "13",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#RDMBS",
     "baseIri" : "https://w3id.org/omicron",
@@ -882,20 +868,19 @@
     "comment" : {
       "en" : "This class is intended to define relational data base sources"
     },
-    "attributes" : [ "external" ],
-    "id" : "49",
-    "superClasses" : [ "47" ]
+    "id" : "50",
+    "superClasses" : [ "48" ]
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart",
-    "equivalent" : [ "81" ],
+    "equivalent" : [ "82" ],
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
     "instances" : 0,
     "label" : {
       "IRI-based" : "IfcRoadPart"
     },
     "attributes" : [ "equivalent", "external" ],
-    "id" : "35",
-    "superClasses" : [ "22" ]
+    "id" : "36",
+    "superClasses" : [ "23" ]
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -904,12 +889,19 @@
       "IRI-based" : "IfcGloballyUniqueId"
     },
     "attributes" : [ "external" ],
-    "id" : "44",
-    "superClasses" : [ "45" ]
+    "id" : "45",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "123",
+    "id" : "95",
     "label" : {
       "undefined" : "Thing"
     }
@@ -920,10 +912,10 @@
     "label" : {
       "IRI-based" : "IfcObjectDefinition"
     },
-    "subClasses" : [ "33", "35" ],
+    "subClasses" : [ "34", "36" ],
     "attributes" : [ "external" ],
-    "id" : "22",
-    "superClasses" : [ "37" ]
+    "id" : "23",
+    "superClasses" : [ "43" ]
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -931,10 +923,10 @@
     "label" : {
       "IRI-based" : "IfcSpatialElement"
     },
-    "subClasses" : [ "22" ],
+    "subClasses" : [ "23" ],
     "attributes" : [ "external" ],
-    "id" : "37",
-    "superClasses" : [ "52" ]
+    "id" : "43",
+    "superClasses" : [ "51" ]
   }, {
     "iri" : "https://w3id.org/omicron#MinorDefect",
     "baseIri" : "https://w3id.org/omicron",
@@ -960,9 +952,8 @@
     "comment" : {
       "en" : "This class is intended to represent minor defect related informartion"
     },
-    "attributes" : [ "external" ],
-    "id" : "42",
-    "superClasses" : [ "38" ]
+    "id" : "41",
+    "superClasses" : [ "37" ]
   }, {
     "iri" : "https://w3id.org/omicron#IRI",
     "baseIri" : "https://w3id.org/omicron",
@@ -988,9 +979,8 @@
     "comment" : {
       "en" : "This class is intended to represent IRI measurement informartion"
     },
-    "attributes" : [ "external" ],
-    "id" : "1",
-    "superClasses" : [ "38" ]
+    "id" : "3",
+    "superClasses" : [ "37" ]
   }, {
     "iri" : "https://w3id.org/omicron#Map",
     "baseIri" : "https://w3id.org/omicron",
@@ -1016,20 +1006,19 @@
     "comment" : {
       "en" : "This class is intended to represent information related to a map"
     },
-    "attributes" : [ "external" ],
-    "id" : "96",
-    "superClasses" : [ "4" ]
+    "id" : "100",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem",
-    "equivalent" : [ "35" ],
+    "equivalent" : [ "36" ],
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
     "instances" : 0,
     "label" : {
       "IRI-based" : "MaintainableMaterialItem"
     },
     "attributes" : [ "equivalent", "external" ],
-    "id" : "81",
-    "superClasses" : [ "53" ]
+    "id" : "82",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/omicron#AsphaltMixEvolution",
     "baseIri" : "https://w3id.org/omicron",
@@ -1055,9 +1044,8 @@
     "comment" : {
       "en" : "This class is intended to represent Asphalt Mix parameters evolution related information"
     },
-    "attributes" : [ "external" ],
-    "id" : "57",
-    "superClasses" : [ "4" ]
+    "id" : "58",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#TimeSeries",
     "baseIri" : "https://w3id.org/omicron",
@@ -1083,9 +1071,8 @@
     "comment" : {
       "en" : "This class is intended to define time series sources"
     },
-    "attributes" : [ "external" ],
     "id" : "14",
-    "superClasses" : [ "47" ]
+    "superClasses" : [ "48" ]
   }, {
     "iri" : "https://w3id.org/omicron#CrackCharacterization",
     "baseIri" : "https://w3id.org/omicron",
@@ -1111,9 +1098,8 @@
     "comment" : {
       "en" : "This class is intended to represent Crack Characterization related information"
     },
-    "attributes" : [ "external" ],
-    "id" : "20",
-    "superClasses" : [ "4" ]
+    "id" : "21",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#3DModel",
     "baseIri" : "https://w3id.org/omicron",
@@ -1139,9 +1125,8 @@
     "comment" : {
       "en" : "This class is intended to represent information related to 3D model"
     },
-    "attributes" : [ "external" ],
-    "id" : "107",
-    "superClasses" : [ "4" ]
+    "id" : "111",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/express#STRING",
     "baseIri" : "https://w3id.org/express",
@@ -1149,9 +1134,9 @@
     "label" : {
       "IRI-based" : "STRING"
     },
-    "subClasses" : [ "44" ],
+    "subClasses" : [ "45" ],
     "attributes" : [ "external" ],
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "https://w3id.org/omicron#PlannedMaintenanceSnapshot",
     "baseIri" : "https://w3id.org/omicron",
@@ -1177,9 +1162,8 @@
     "comment" : {
       "en" : "This class is intended to represent information related to the maintenance tasks to be performed for a certain maintenance activity process"
     },
-    "attributes" : [ "external" ],
-    "id" : "86",
-    "superClasses" : [ "4" ]
+    "id" : "87",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#ConesMaintenance",
     "baseIri" : "https://w3id.org/omicron",
@@ -1205,9 +1189,8 @@
     "comment" : {
       "en" : "Cones maintenance process"
     },
-    "attributes" : [ "external" ],
-    "id" : "115",
-    "superClasses" : [ "7" ]
+    "id" : "119",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/omicron#CleaningMaintenance",
     "baseIri" : "https://w3id.org/omicron",
@@ -1233,9 +1216,18 @@
     "comment" : {
       "en" : "Cleaning maintenance process"
     },
+    "id" : "118",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/idsa/core/Resource",
+    "baseIri" : "https://w3id.org/idsa/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "subClasses" : [ "14", "50", "55", "11" ],
     "attributes" : [ "external" ],
-    "id" : "114",
-    "superClasses" : [ "7" ]
+    "id" : "48"
   }, {
     "iri" : "https://w3id.org/omicron#UAVInspection",
     "baseIri" : "https://w3id.org/omicron",
@@ -1261,19 +1253,8 @@
     "comment" : {
       "en" : "UAV devices driven inspection process"
     },
-    "attributes" : [ "external" ],
-    "id" : "82",
-    "superClasses" : [ "68" ]
-  }, {
-    "iri" : "https://w3id.org/idsa/core/Resource",
-    "baseIri" : "https://w3id.org/idsa/core",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Resource"
-    },
-    "subClasses" : [ "14", "49", "51", "11" ],
-    "attributes" : [ "external" ],
-    "id" : "47"
+    "id" : "83",
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "https://w3id.org/idsa/core/AuthInfo",
     "baseIri" : "https://w3id.org/idsa/core",
@@ -1282,7 +1263,7 @@
       "IRI-based" : "AuthInfo"
     },
     "attributes" : [ "external" ],
-    "id" : "59"
+    "id" : "61"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -1291,8 +1272,8 @@
       "IRI-based" : "IfcRoad"
     },
     "attributes" : [ "external" ],
-    "id" : "33",
-    "superClasses" : [ "22" ]
+    "id" : "34",
+    "superClasses" : [ "23" ]
   }, {
     "iri" : "https://w3id.org/omicron#CameraRawImages",
     "baseIri" : "https://w3id.org/omicron",
@@ -1318,9 +1299,8 @@
     "comment" : {
       "en" : "This class is intended to represent camera's raw images informartion"
     },
-    "attributes" : [ "external" ],
     "id" : "31",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#TerrestialInspection",
     "baseIri" : "https://w3id.org/omicron",
@@ -1346,9 +1326,8 @@
     "comment" : {
       "en" : "Terrestial vehicle driven inspection process"
     },
-    "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "68" ]
+    "id" : "4",
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "https://w3id.org/omicron#MaintenanceTaskSnapshot",
     "baseIri" : "https://w3id.org/omicron",
@@ -1373,9 +1352,8 @@
     "comment" : {
       "en" : "This class is intended to represent information related to the planned maintenance activities"
     },
-    "attributes" : [ "external" ],
-    "id" : "98",
-    "superClasses" : [ "4" ]
+    "id" : "102",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#DeviationDegree",
     "baseIri" : "https://w3id.org/omicron",
@@ -1401,9 +1379,8 @@
     "comment" : {
       "en" : "This class is intended to represent terrestian vechicle's deviation degree related information"
     },
-    "attributes" : [ "external" ],
     "id" : "18",
-    "superClasses" : [ "4" ]
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/omicron#SurfaceRehabilitationMaintenanceResult",
     "baseIri" : "https://w3id.org/omicron",
@@ -1429,12 +1406,11 @@
     "comment" : {
       "en" : "This class is intended to represent Surface Rehabilitation Maintenance Result related information"
     },
-    "attributes" : [ "external" ],
-    "id" : "78",
-    "superClasses" : [ "4" ]
+    "id" : "79",
+    "superClasses" : [ "6" ]
   } ],
   "property" : [ {
-    "id" : "0",
+    "id" : "2",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "10",
@@ -1446,10 +1422,10 @@
     "id" : "17",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "19",
+    "id" : "20",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "21",
+    "id" : "22",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "24",
@@ -1470,31 +1446,31 @@
     "id" : "32",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "34",
+    "id" : "33",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "36",
+    "id" : "35",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "43",
+    "id" : "42",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "46",
+    "id" : "44",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "48",
+    "id" : "47",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "50",
+    "id" : "49",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "55",
+    "id" : "54",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "56",
-    "type" : "owl:allValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "58",
+    "id" : "57",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "60",
@@ -1512,13 +1488,16 @@
     "id" : "65",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "67",
+    "id" : "66",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "69",
-    "type" : "rdfs:SubClassOf"
+    "id" : "68",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "72",
@@ -1530,25 +1509,22 @@
     "id" : "74",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "75",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "76",
-    "type" : "owl:allValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "77",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "80",
+    "id" : "78",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "83",
+    "id" : "81",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "85",
+    "id" : "84",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "88",
@@ -1570,25 +1546,19 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "94",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "95",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "97",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "98",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "99",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "100",
-    "type" : "owl:allValuesFrom"
-  }, {
     "id" : "101",
     "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "102",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "103",
     "type" : "owl:allValuesFrom"
@@ -1596,37 +1566,37 @@
     "id" : "104",
     "type" : "owl:allValuesFrom"
   }, {
+    "id" : "105",
+    "type" : "owl:allValuesFrom"
+  }, {
     "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "108",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "109",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "110",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "111",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "112",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "116",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "117",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "118",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "119",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "120",
@@ -1638,6 +1608,9 @@
     "id" : "122",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "124",
     "type" : "rdfs:SubClassOf"
   }, {
@@ -1645,16 +1618,16 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "126",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "23",
-    "type" : "owl:objectProperty"
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "128",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "129",
-    "type" : "owl:allValuesFrom"
+    "id" : "19",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "130",
     "type" : "owl:allValuesFrom"
@@ -1663,19 +1636,19 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "132",
-    "type" : "owl:disjointWith"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "133",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "134",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "135",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "136",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "137",
     "type" : "rdfs:SubClassOf"
@@ -1693,10 +1666,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "142",
-    "type" : "owl:allValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "143",
-    "type" : "owl:allValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "144",
     "type" : "owl:allValuesFrom"
@@ -1723,10 +1696,10 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "152",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "153",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "154",
     "type" : "rdfs:SubClassOf"
@@ -1753,13 +1726,13 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "162",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "163",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "164",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "165",
     "type" : "rdfs:SubClassOf"
@@ -1769,17 +1742,23 @@
   }, {
     "id" : "167",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
+    "range" : "4",
     "label" : {
       "IRI-based" : "isOutputOf"
     },
-    "domain" : "1",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "0"
+    "domain" : "3",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "2"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -1802,11 +1781,11 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "1",
+    "domain" : "3",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "10"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
@@ -1834,35 +1813,18 @@
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "12"
   }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "11",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "4",
     "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
+      "IRI-based" : "isAbout"
     },
     "domain" : "18",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "17"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
@@ -1886,45 +1848,51 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "20",
+    "domain" : "21",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "19"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "20"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
+    "range" : "23",
     "label" : {
       "IRI-based" : "isAbout"
     },
     "domain" : "13",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "21"
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "22"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
     "label" : {
-      "IRI-based" : "isAbout"
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
     },
     "domain" : "18",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "24"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
-    "label" : {
-      "IRI-based" : "isAbout"
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "domain" : "27",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "26"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "24"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -1951,70 +1919,125 @@
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "27",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "28"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
     "range" : "9",
     "label" : {
       "IRI-based" : "isAbout"
     },
-    "domain" : "20",
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "21",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "29"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
+    "range" : "4",
     "label" : {
       "IRI-based" : "isAbout"
     },
     "domain" : "31",
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "30"
   }, {
-    "range" : "22",
-    "domain" : "33",
+    "range" : "1",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "32"
   }, {
-    "range" : "22",
-    "domain" : "35",
+    "range" : "23",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "34"
+    "id" : "33"
   }, {
-    "range" : "37",
-    "domain" : "22",
+    "range" : "23",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "36"
+    "id" : "35"
   }, {
-    "range" : "45",
-    "domain" : "44",
+    "range" : "43",
+    "domain" : "23",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "43"
+    "id" : "42"
   }, {
-    "range" : "47",
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "48",
     "domain" : "14",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "46"
+    "id" : "47"
   }, {
-    "range" : "47",
-    "domain" : "49",
+    "range" : "48",
+    "domain" : "50",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "48"
+    "id" : "49"
   }, {
-    "range" : "47",
-    "domain" : "51",
+    "range" : "48",
+    "domain" : "55",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "50"
+    "id" : "54"
   }, {
-    "range" : "47",
+    "range" : "48",
     "domain" : "11",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "55"
+    "id" : "56"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "58",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://w3id.org/omicron#authentificationType",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "61",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "authentificationType",
+      "undefined" : "authentificationType"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "This relation is intended to define the AuthIfo for a certain Resource"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "60"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -2037,103 +2060,47 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "57",
+    "domain" : "58",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "56"
-  }, {
-    "iri" : "https://w3id.org/omicron#authentificationType",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "59",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "authentificationType",
-      "undefined" : "authentificationType"
-    },
-    "domain" : "47",
-    "comment" : {
-      "undefined" : "This relation is intended to define the AuthIfo for a certain Resource"
-    },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "58"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "61",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "57",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "60"
-  }, {
-    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
-    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "44",
-    "label" : {
-      "IRI-based" : "globalId_IfcRoot"
-    },
-    "domain" : "7",
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "62"
   }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "47",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
     "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
+      "IRI-based" : "BFO_0000066",
+      "undefined" : "occurs in"
     },
-    "domain" : "7",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "1",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "63"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "44",
+    "range" : "45",
     "label" : {
       "IRI-based" : "globalId_IfcRoot"
     },
-    "domain" : "47",
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "1",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "64"
+  }, {
+    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
+    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "globalId_IfcRoot"
+    },
+    "domain" : "48",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "65"
   }, {
     "iri" : "https://w3id.org/omicron#endpoint",
     "baseIri" : "https://w3id.org/omicron",
-    "range" : "66",
+    "range" : "67",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2157,146 +2124,99 @@
       "IRI-based" : "endpoint",
       "undefined" : "endpoint"
     },
-    "domain" : "47",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "65"
+    "domain" : "48",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "66"
   }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "47",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
     "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
+      "IRI-based" : "BFO_0000066",
+      "undefined" : "occurs in"
     },
-    "domain" : "68",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "67"
+    "domain" : "69",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "68"
   }, {
-    "range" : "7",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "69"
-  }, {
-    "range" : "7",
-    "domain" : "71",
+    "range" : "1",
+    "domain" : "9",
     "attributes" : [ "anonymous", "object" ],
     "id" : "70"
   }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "22",
-    "label" : {
-      "IRI-based" : "BFO_0000066",
-      "undefined" : "occurs in"
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "48",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "7",
-    "attributes" : [ "object", "allValues", "external" ],
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
     "id" : "72"
   }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "22",
+    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
+    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
+    "range" : "45",
     "label" : {
-      "IRI-based" : "BFO_0000066",
-      "undefined" : "occurs in"
+      "IRI-based" : "globalId_IfcRoot"
     },
-    "domain" : "68",
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "69",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "73"
   }, {
-    "range" : "7",
-    "domain" : "6",
+    "range" : "1",
+    "domain" : "75",
     "attributes" : [ "anonymous", "object" ],
     "id" : "74"
   }, {
-    "range" : "7",
-    "domain" : "25",
+    "range" : "1",
+    "domain" : "59",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "75"
-  }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "11",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
-    },
-    "domain" : "40",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
     "id" : "76"
   }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "11",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "4",
     "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
+      "IRI-based" : "isOutputOf"
     },
-    "domain" : "78",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "39",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "77"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "61",
+    "range" : "59",
     "label" : {
       "IRI-based" : "isAbout"
     },
-    "domain" : "78",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "80"
+    "domain" : "79",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "78"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -2319,53 +2239,106 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "84",
+    "domain" : "79",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "83"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "81"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
-    "label" : {
-      "IRI-based" : "isAbout"
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "86",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "85"
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "85",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "84"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "isOutputOf"
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "40",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "87"
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "87",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "86"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
-    "label" : {
-      "IRI-based" : "isAbout"
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "84",
-    "attributes" : [ "object", "allValues", "external" ],
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
     "id" : "88"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
+    "range" : "23",
     "label" : {
-      "IRI-based" : "isOutputOf"
+      "IRI-based" : "isAbout"
     },
-    "domain" : "41",
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "85",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "89"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
@@ -2389,40 +2362,53 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "42",
+    "domain" : "40",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "90"
   }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "11",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "4",
     "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
+      "IRI-based" : "isOutputOf"
     },
-    "domain" : "86",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "41",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "91"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "87",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isOutputOf"
+    },
+    "domain" : "40",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/omicron#url",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "url"
+    },
+    "domain" : "95",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -2449,29 +2435,19 @@
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "92"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "isOutputOf"
-    },
-    "domain" : "42",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "93"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "97"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
     "range" : "9",
     "label" : {
       "IRI-based" : "isAbout"
     },
     "domain" : "8",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "94"
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "98"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -2494,46 +2470,13 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "96",
+    "domain" : "100",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "95"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "7",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "98",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "97"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "3",
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "99"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "96",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "100"
-  }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
     "range" : "11",
@@ -2555,12 +2498,45 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "98",
+    "domain" : "102",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "101"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "7",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "100",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "102",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "105"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -2569,58 +2545,8 @@
       "IRI-based" : "predefinedType_IfcRoadPart",
       "undefined" : "PredefinedType"
     },
-    "domain" : "35",
+    "domain" : "36",
     "attributes" : [ "object", "external" ],
-    "id" : "102"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "82",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "5",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "103"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "82",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "105",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "104"
-  }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "11",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
-    },
-    "domain" : "3",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
     "id" : "106"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
@@ -2648,193 +2574,211 @@
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "109",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "108"
   }, {
-    "range" : "68",
-    "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "109"
-  }, {
-    "range" : "53",
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
     "id" : "110"
   }, {
-    "range" : "39",
-    "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "111"
-  }, {
-    "range" : "68",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "5",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "112"
   }, {
-    "range" : "53",
-    "domain" : "68",
+    "range" : "52",
+    "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "113"
   }, {
-    "range" : "53",
-    "domain" : "81",
+    "range" : "52",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "69",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "range" : "69",
+    "domain" : "83",
     "attributes" : [ "anonymous", "object" ],
     "id" : "116"
   }, {
-    "range" : "53",
-    "domain" : "52",
+    "range" : "52",
+    "domain" : "82",
     "attributes" : [ "anonymous", "object" ],
     "id" : "117"
   }, {
     "range" : "52",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "118"
-  }, {
-    "range" : "38",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "119"
-  }, {
-    "range" : "53",
-    "domain" : "39",
+    "domain" : "51",
     "attributes" : [ "anonymous", "object" ],
     "id" : "120"
   }, {
     "range" : "52",
-    "domain" : "37",
+    "domain" : "38",
     "attributes" : [ "anonymous", "object" ],
     "id" : "121"
   }, {
-    "range" : "38",
-    "domain" : "1",
+    "range" : "37",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "122"
   }, {
-    "range" : "38",
-    "domain" : "41",
+    "range" : "37",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "51",
+    "domain" : "43",
     "attributes" : [ "anonymous", "object" ],
     "id" : "124"
   }, {
-    "range" : "38",
-    "domain" : "40",
+    "range" : "51",
+    "domain" : "53",
     "attributes" : [ "anonymous", "object" ],
     "id" : "125"
   }, {
+    "range" : "37",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "37",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/hasOutput",
-    "inverse" : "127",
+    "inverse" : "129",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "123",
+    "range" : "95",
     "label" : {
       "IRI-based" : "hasOutput"
     },
-    "domain" : "123",
+    "domain" : "95",
     "attributes" : [ "object", "external" ],
-    "id" : "126"
+    "id" : "128"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "123",
+    "range" : "95",
     "label" : {
       "IRI-based" : "isSubjectOf"
     },
-    "domain" : "123",
+    "domain" : "95",
     "attributes" : [ "object", "external" ],
-    "id" : "23"
+    "id" : "19"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
+    "inverse" : "19",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "22",
+    "range" : "23",
     "label" : {
       "IRI-based" : "isAbout"
     },
-    "domain" : "107",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "128"
-  }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "11",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
-    },
-    "domain" : "79",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "129"
-  }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "51",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
-    },
-    "domain" : "107",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "111",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "130"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "82",
-    "label" : {
-      "IRI-based" : "isAbout"
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "15",
-    "attributes" : [ "object", "allValues", "external" ],
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "80",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
     "id" : "131"
   }, {
-    "range" : "82",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "132"
-  }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "isAbout"
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "55",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "79",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "133"
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "111",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "132"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -2861,43 +2805,70 @@
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "allValues", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "83",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "134"
   }, {
-    "range" : "7",
-    "domain" : "114",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "80",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "135"
   }, {
-    "range" : "4",
-    "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "15",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "136"
   }, {
-    "range" : "7",
-    "domain" : "9",
+    "range" : "6",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "137"
   }, {
-    "range" : "7",
-    "domain" : "115",
+    "range" : "6",
+    "domain" : "79",
     "attributes" : [ "anonymous", "object" ],
     "id" : "138"
   }, {
-    "range" : "4",
-    "domain" : "27",
+    "range" : "1",
+    "domain" : "119",
     "attributes" : [ "anonymous", "object" ],
     "id" : "139"
   }, {
-    "range" : "4",
-    "domain" : "78",
+    "range" : "1",
+    "domain" : "118",
     "attributes" : [ "anonymous", "object" ],
     "id" : "140"
   }, {
-    "range" : "4",
-    "domain" : "18",
+    "range" : "6",
+    "domain" : "111",
     "attributes" : [ "anonymous", "object" ],
     "id" : "141"
+  }, {
+    "range" : "6",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "6",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
@@ -2906,51 +2877,23 @@
       "IRI-based" : "predefinedType_IfcRoadPart",
       "undefined" : "PredefinedType"
     },
-    "domain" : "35",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "142"
-  }, {
-    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
-    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "44",
-    "label" : {
-      "IRI-based" : "globalId_IfcRoot"
-    },
-    "domain" : "52",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "143"
-  }, {
-    "iri" : "https://w3id.org/omicron#informationIn",
-    "baseIri" : "https://w3id.org/omicron",
-    "range" : "47",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/omicron#",
-        "type" : "label"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "informationIn",
-      "en" : "informationIn"
-    },
-    "domain" : "37",
-    "comment" : {
-      "en" : "Relation that link an entity and the resource where its information is stored in."
-    },
-    "attributes" : [ "object", "allValues", "external" ],
+    "domain" : "36",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "144"
   }, {
+    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
+    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "globalId_IfcRoot"
+    },
+    "domain" : "51",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "145"
+  }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
-    "range" : "47",
+    "range" : "48",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2969,22 +2912,50 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "4",
+    "domain" : "43",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "145"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "146"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "44",
+    "range" : "45",
     "label" : {
       "IRI-based" : "globalId_IfcRoot"
     },
-    "domain" : "4",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "146"
+    "domain" : "6",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "48",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "148"
   }, {
     "iri" : "https://w3id.org/omicron#informationIn",
     "baseIri" : "https://w3id.org/omicron",
@@ -3007,137 +2978,155 @@
       "IRI-based" : "informationIn",
       "en" : "informationIn"
     },
-    "domain" : "4",
+    "domain" : "6",
     "comment" : {
       "en" : "Relation that link an entity and the resource where its information is stored in."
     },
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "147"
+    "attributes" : [ "allValues", "object" ],
+    "id" : "149"
   }, {
     "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf",
     "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "68",
+    "range" : "69",
     "label" : {
       "IRI-based" : "isOutputOf"
     },
-    "domain" : "38",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "148"
+    "domain" : "37",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "150"
   }, {
-    "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot",
-    "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "44",
-    "label" : {
-      "IRI-based" : "globalId_IfcRoot"
+    "iri" : "https://w3id.org/omicron#informationIn",
+    "baseIri" : "https://w3id.org/omicron",
+    "range" : "48",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/omicron#",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
     },
-    "domain" : "68",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "149"
+    "label" : {
+      "IRI-based" : "informationIn",
+      "en" : "informationIn"
+    },
+    "domain" : "69",
+    "comment" : {
+      "en" : "Relation that link an entity and the resource where its information is stored in."
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "151"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "22",
+    "range" : "23",
     "label" : {
       "IRI-based" : "relatedObjects_IfcRelDefinesByObject"
     },
-    "domain" : "54",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "150"
+    "domain" : "53",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "152"
   }, {
     "iri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition",
     "baseIri" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL",
-    "range" : "54",
+    "range" : "53",
     "label" : {
       "IRI-based" : "isDecomposedBy_IfcObjectDefinition"
     },
-    "domain" : "33",
-    "attributes" : [ "object", "allValues", "external" ],
-    "id" : "151"
-  }, {
-    "range" : "4",
-    "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "152"
-  }, {
-    "range" : "4",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "34",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "153"
   }, {
-    "range" : "4",
-    "domain" : "107",
+    "range" : "6",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "154"
   }, {
-    "range" : "4",
-    "domain" : "105",
+    "range" : "6",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "155"
   }, {
-    "range" : "4",
-    "domain" : "96",
+    "range" : "6",
+    "domain" : "109",
     "attributes" : [ "anonymous", "object" ],
     "id" : "156"
   }, {
-    "range" : "4",
-    "domain" : "57",
+    "range" : "6",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "157"
   }, {
-    "range" : "4",
-    "domain" : "15",
+    "range" : "6",
+    "domain" : "58",
     "attributes" : [ "anonymous", "object" ],
     "id" : "158"
   }, {
-    "range" : "4",
-    "domain" : "98",
+    "range" : "6",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "159"
   }, {
-    "range" : "4",
-    "domain" : "8",
+    "range" : "6",
+    "domain" : "102",
     "attributes" : [ "anonymous", "object" ],
     "id" : "160"
   }, {
-    "range" : "4",
-    "domain" : "31",
+    "range" : "6",
+    "domain" : "100",
     "attributes" : [ "anonymous", "object" ],
     "id" : "161"
   }, {
-    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
-    "inverse" : "23",
-    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
-    "range" : "123",
-    "label" : {
-      "IRI-based" : "isAbout"
-    },
-    "domain" : "123",
-    "attributes" : [ "object", "external" ],
+    "range" : "6",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "162"
   }, {
-    "range" : "4",
-    "domain" : "84",
+    "range" : "6",
+    "domain" : "85",
     "attributes" : [ "anonymous", "object" ],
     "id" : "163"
   }, {
-    "range" : "4",
-    "domain" : "79",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout",
+    "inverse" : "19",
+    "baseIri" : "https://purl.industrialontologies.org/ontology/core/Core",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "domain" : "95",
+    "attributes" : [ "object", "external" ],
     "id" : "164"
   }, {
-    "range" : "39",
-    "domain" : "4",
+    "range" : "6",
+    "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "165"
   }, {
-    "range" : "4",
-    "domain" : "3",
+    "range" : "38",
+    "domain" : "6",
     "attributes" : [ "anonymous", "object" ],
     "id" : "166"
   }, {
-    "range" : "4",
-    "domain" : "5",
+    "range" : "38",
+    "domain" : "37",
     "attributes" : [ "anonymous", "object" ],
     "id" : "167"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "6",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
   } ]
 }
