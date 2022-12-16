@@ -16,7 +16,7 @@ Francisco Javier Diez <mailto:fdiez"""@tekniker.es> ;
                                                                    """The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.
 
 The OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269.""" ;
-                            <http://purl.org/dc/terms/issued> "2022-10-13" ;
+                            <http://purl.org/dc/terms/issued> "2022-12-15" ;
                             <http://purl.org/dc/terms/title> "The OMICRON Ontology" ;
                             <http://purl.org/ontology/bibo/status> "Work in Progress" ;
                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "omicron" ;
@@ -627,6 +627,32 @@ The OMICRON ontology has been developed as part of the OMICRON project which has
      rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
      rdfs:label "IRI"@en ;
      <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+
+
+###  https://w3id.org/omicron#InspectionDescriptiveInformation
+:InspectionDescriptiveInformation rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity> ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                    owl:allValuesFrom <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess>
+                                                  ] ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty :informationIn ;
+                                                    owl:allValuesFrom :FileStorage
+                                                  ] ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty <https://purl.industrialontologies.org/ontology/core/Core/isAbout> ;
+                                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                    owl:onClass <https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess>
+                                                  ] ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty :informationIn ;
+                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                    owl:onClass :FileStorage
+                                                  ] ;
+                                  rdfs:comment "This class is intended to represent inspection descriptive informartion"@en ;
+                                  rdfs:isDefinedBy "https://w3.id.org/omicron#" ;
+                                  <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
 
 
 ###  https://w3id.org/omicron#InspectionPointCloud

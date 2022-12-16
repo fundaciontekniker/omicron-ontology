@@ -24,10 +24,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#TerrestialInspection"
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
   } ]
 }, {
   "@id" : "_:genid101",
@@ -46,10 +46,10 @@
   "@id" : "_:genid102",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#SurfaceRehabilitationMaintenance"
+    "@id" : "https://w3id.org/omicron#TerrestialInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
   } ]
 }, {
   "@id" : "_:genid103",
@@ -68,10 +68,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#SurfaceRehabilitationMaintenance"
+    "@id" : "https://w3id.org/omicron#TerrestialInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
   } ]
 }, {
   "@id" : "_:genid105",
@@ -90,7 +90,7 @@
   "@id" : "_:genid106",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#UAVInspection"
+    "@id" : "https://w3id.org/omicron#SurfaceRehabilitationMaintenance"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -112,7 +112,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#UAVInspection"
+    "@id" : "https://w3id.org/omicron#SurfaceRehabilitationMaintenance"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -143,7 +143,7 @@
   "@id" : "_:genid110",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#TerrestialInspection"
+    "@id" : "https://w3id.org/omicron#UAVInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -165,7 +165,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#TerrestialInspection"
+    "@id" : "https://w3id.org/omicron#UAVInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -187,7 +187,7 @@
   "@id" : "_:genid114",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://w3id.org/omicron#TerrestialInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -196,7 +196,7 @@
   "@id" : "_:genid115",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#BIMServer"
+    "@id" : "https://w3id.org/omicron#FileStorage"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/omicron#informationIn"
@@ -209,7 +209,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://w3id.org/omicron#TerrestialInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -218,7 +218,7 @@
   "@id" : "_:genid117",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#BIMServer"
+    "@id" : "https://w3id.org/omicron#FileStorage"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/omicron#informationIn"
@@ -228,6 +228,24 @@
     "@value" : "1"
   } ]
 }, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+  } ]
+}, {
+  "@id" : "_:genid119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/omicron#BIMServer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/omicron#informationIn"
+  } ]
+}, {
   "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
@@ -235,6 +253,32 @@
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/omicron#BIMServer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/omicron#informationIn"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -829,7 +873,7 @@
   "@id" : "_:genid61",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#UAVInspection"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -837,18 +881,27 @@
 }, {
   "@id" : "_:genid62",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/omicron#FileStorage"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/omicron#informationIn"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#UAVInspection"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
   } ]
 }, {
-  "@id" : "_:genid63",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "https://w3id.org/omicron#FileStorage"
@@ -861,22 +914,13 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid64",
+  "@id" : "_:genid65",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "https://w3id.org/omicron#UAVInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
-  } ]
-}, {
-  "@id" : "_:genid65",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#FileStorage"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/omicron#informationIn"
   } ]
 }, {
   "@id" : "_:genid66",
@@ -908,7 +952,7 @@
   "@id" : "_:genid68",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://w3id.org/omicron#UAVInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -939,7 +983,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://w3id.org/omicron#UAVInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -961,7 +1005,7 @@
   "@id" : "_:genid72",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -983,7 +1027,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -1005,7 +1049,7 @@
   "@id" : "_:genid76",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -1027,7 +1071,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
@@ -1062,35 +1106,13 @@
   "@id" : "_:genid80",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#CrackSealingMaintenance"
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
   } ]
 }, {
   "@id" : "_:genid81",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#CrackSealingMaintenance"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
-  } ]
-}, {
-  "@id" : "_:genid82",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#TerrestialInspection"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
-  } ]
-}, {
-  "@id" : "_:genid83",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "https://w3id.org/omicron#FileStorage"
@@ -1099,20 +1121,20 @@
     "@id" : "https://w3id.org/omicron#informationIn"
   } ]
 }, {
-  "@id" : "_:genid84",
+  "@id" : "_:genid82",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/omicron#TerrestialInspection"
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
   } ]
 }, {
-  "@id" : "_:genid85",
+  "@id" : "_:genid83",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "https://w3id.org/omicron#FileStorage"
@@ -1123,6 +1145,28 @@
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/omicron#CrackSealingMaintenance"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/omicron#CrackSealingMaintenance"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
   } ]
 }, {
   "@id" : "_:genid86",
@@ -1181,10 +1225,10 @@
   "@id" : "_:genid90",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://w3id.org/omicron#TerrestialInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
   } ]
 }, {
   "@id" : "_:genid91",
@@ -1203,10 +1247,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
+    "@id" : "https://w3id.org/omicron#TerrestialInspection"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
   } ]
 }, {
   "@id" : "_:genid93",
@@ -1269,10 +1313,10 @@
   "@id" : "_:genid98",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/omicron#TerrestialInspection"
+    "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/isAbout"
   } ]
 }, {
   "@id" : "_:genid99",
@@ -1560,7 +1604,7 @@
     "@value" : "The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.\n\nThe OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269."
   } ],
   "http://purl.org/dc/terms/issued" : [ {
-    "@value" : "2022-10-13"
+    "@value" : "2022-12-15"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "The OMICRON Ontology"
@@ -1595,13 +1639,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid110"
+    "@id" : "_:genid114"
   }, {
-    "@id" : "_:genid111"
+    "@id" : "_:genid115"
   }, {
-    "@id" : "_:genid112"
+    "@id" : "_:genid116"
   }, {
-    "@id" : "_:genid113"
+    "@id" : "_:genid117"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -1624,13 +1668,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid114"
+    "@id" : "_:genid118"
   }, {
-    "@id" : "_:genid115"
+    "@id" : "_:genid119"
   }, {
-    "@id" : "_:genid116"
+    "@id" : "_:genid120"
   }, {
-    "@id" : "_:genid117"
+    "@id" : "_:genid121"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -1941,6 +1985,31 @@
     "@value" : "testing"
   } ]
 }, {
+  "@id" : "https://w3id.org/omicron#InspectionDescriptiveInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class is intended to represent inspection descriptive informartion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3.id.org/omicron#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
+  }, {
+    "@id" : "_:genid61"
+  }, {
+    "@id" : "_:genid62"
+  }, {
+    "@id" : "_:genid63"
+  }, {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@language" : "en",
+    "@value" : "testing"
+  } ]
+}, {
   "@id" : "https://w3id.org/omicron#InspectionPointCloud",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1957,11 +2026,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid61"
+    "@id" : "_:genid65"
   }, {
-    "@id" : "_:genid62"
+    "@id" : "_:genid66"
   }, {
-    "@id" : "_:genid63"
+    "@id" : "_:genid67"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -1984,13 +2053,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid64"
+    "@id" : "_:genid68"
   }, {
-    "@id" : "_:genid65"
+    "@id" : "_:genid69"
   }, {
-    "@id" : "_:genid66"
+    "@id" : "_:genid70"
   }, {
-    "@id" : "_:genid67"
+    "@id" : "_:genid71"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2034,13 +2103,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid68"
+    "@id" : "_:genid72"
   }, {
-    "@id" : "_:genid69"
+    "@id" : "_:genid73"
   }, {
-    "@id" : "_:genid70"
+    "@id" : "_:genid74"
   }, {
-    "@id" : "_:genid71"
+    "@id" : "_:genid75"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2059,13 +2128,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid72"
+    "@id" : "_:genid76"
   }, {
-    "@id" : "_:genid73"
+    "@id" : "_:genid77"
   }, {
-    "@id" : "_:genid74"
+    "@id" : "_:genid78"
   }, {
-    "@id" : "_:genid75"
+    "@id" : "_:genid79"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2088,13 +2157,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid76"
+    "@id" : "_:genid80"
   }, {
-    "@id" : "_:genid77"
+    "@id" : "_:genid81"
   }, {
-    "@id" : "_:genid78"
+    "@id" : "_:genid82"
   }, {
-    "@id" : "_:genid79"
+    "@id" : "_:genid83"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2117,9 +2186,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid80"
+    "@id" : "_:genid84"
   }, {
-    "@id" : "_:genid81"
+    "@id" : "_:genid85"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2142,13 +2211,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"
   }, {
-    "@id" : "_:genid82"
+    "@id" : "_:genid86"
   }, {
-    "@id" : "_:genid83"
+    "@id" : "_:genid87"
   }, {
-    "@id" : "_:genid84"
+    "@id" : "_:genid88"
   }, {
-    "@id" : "_:genid85"
+    "@id" : "_:genid89"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2192,13 +2261,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"
   }, {
-    "@id" : "_:genid86"
+    "@id" : "_:genid90"
   }, {
-    "@id" : "_:genid87"
+    "@id" : "_:genid91"
   }, {
-    "@id" : "_:genid88"
+    "@id" : "_:genid92"
   }, {
-    "@id" : "_:genid89"
+    "@id" : "_:genid93"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2221,13 +2290,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid90"
+    "@id" : "_:genid94"
   }, {
-    "@id" : "_:genid91"
+    "@id" : "_:genid95"
   }, {
-    "@id" : "_:genid92"
+    "@id" : "_:genid96"
   }, {
-    "@id" : "_:genid93"
+    "@id" : "_:genid97"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2272,13 +2341,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid94"
+    "@id" : "_:genid98"
   }, {
-    "@id" : "_:genid95"
+    "@id" : "_:genid99"
   }, {
-    "@id" : "_:genid96"
+    "@id" : "_:genid100"
   }, {
-    "@id" : "_:genid97"
+    "@id" : "_:genid101"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2301,13 +2370,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"
   }, {
-    "@id" : "_:genid98"
+    "@id" : "_:genid102"
   }, {
-    "@id" : "_:genid99"
+    "@id" : "_:genid103"
   }, {
-    "@id" : "_:genid100"
+    "@id" : "_:genid104"
   }, {
-    "@id" : "_:genid101"
+    "@id" : "_:genid105"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2351,13 +2420,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid102"
+    "@id" : "_:genid106"
   }, {
-    "@id" : "_:genid103"
+    "@id" : "_:genid107"
   }, {
-    "@id" : "_:genid104"
+    "@id" : "_:genid108"
   }, {
-    "@id" : "_:genid105"
+    "@id" : "_:genid109"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",
@@ -2447,13 +2516,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"
   }, {
-    "@id" : "_:genid106"
+    "@id" : "_:genid110"
   }, {
-    "@id" : "_:genid107"
+    "@id" : "_:genid111"
   }, {
-    "@id" : "_:genid108"
+    "@id" : "_:genid112"
   }, {
-    "@id" : "_:genid109"
+    "@id" : "_:genid113"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@language" : "en",

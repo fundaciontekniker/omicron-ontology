@@ -1,0 +1,2167 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/omicron"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/omicron">
+    <Prefix name="" IRI="http://w3id.org/omicron#"/>
+    <Prefix name="ns" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="ns1" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="ns:license"/>
+        <Literal>https://creativecommons.org/licenses/by-nc/4.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+        <Literal xml:lang="tekniker.es&gt;">Ignacio Lazaro &lt;mailto:ignacio.lazaro@tekniker.es&gt;
+Francisco Javier Diez &lt;mailto:fdiez</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:created"/>
+        <Literal>2022-10-11</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <Literal xml:lang="tekniker.es&gt;">Izaskun Fernandez&lt;mailto:izaskun.fernandez</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <Literal>The OMICRON Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <Literal>The OMICRON ontology aims to represent all the necessary knowledge to support a Road Digitial Twin Information approach.
+
+The OMICRON ontology has been developed as part of the OMICRON project which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 955269.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:issued"/>
+        <Literal>2022-12-15</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
+        <Literal>The OMICRON Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="bibo:status"/>
+        <Literal>Work in Progress</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespacePrefix"/>
+        <Literal>omicron</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespaceURI"/>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.1</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BarriersMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/express#STRING"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/idsa/core/AuthInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/idsa/core/GenericEndpoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsphaltMixEvolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BIMServer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CameraRawImages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConesMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackCharacterization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackSealingMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviationDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FileStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InspectionDescriptiveInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InspectionPointCloud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InspectionResultDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LaneMarkersMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaintenancePrioritizationSnapshot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaintenanceTaskSnapshot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarkCharacterization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorDefect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherSignalMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlannedMaintenanceSnapshot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RDMBS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoadCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfaceRehabilitationMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfaceRehabilitationMaintenanceResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerrestialInspection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeSeries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UAVInspection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UAVTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3DLaserScanningData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3DModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/hasOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#authentificationType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#endpoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#informationIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ns:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:created"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:issued"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="bibo:status"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespacePrefix"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespaceURI"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        <Class IRI="https://w3id.org/express#STRING"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#relatedObjects_IfcRelDefinesByObject"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoad"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#isDecomposedBy_IfcObjectDefinition"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRelAggregates"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcSpatialElement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MaintainableMaterialItem"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BarriersMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#authentificationType"/>
+            <Class IRI="https://w3id.org/idsa/core/AuthInfo"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#endpoint"/>
+            <Class IRI="https://w3id.org/idsa/core/GenericEndpoint"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#globalId_IfcRoot"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcGloballyUniqueId"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#authentificationType"/>
+            <Class IRI="https://w3id.org/idsa/core/AuthInfo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#endpoint"/>
+            <Class IRI="https://w3id.org/idsa/core/GenericEndpoint"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsphaltMixEvolution"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsphaltMixEvolution"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#SurfaceRehabilitationMaintenance"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsphaltMixEvolution"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#TimeSeries"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsphaltMixEvolution"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#SurfaceRehabilitationMaintenance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsphaltMixEvolution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#TimeSeries"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BIMServer"/>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CameraRawImages"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CameraRawImages"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CameraRawImages"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CameraRawImages"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConesMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackCharacterization"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackCharacterization"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#CrackSealingMaintenance"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackCharacterization"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackCharacterization"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#CrackSealingMaintenance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackCharacterization"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackSealingMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviationDegree"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviationDegree"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviationDegree"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviationDegree"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviationDegree"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalConditions"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalConditions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalConditions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#TimeSeries"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalConditions"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalConditions"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#TimeSeries"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FileStorage"/>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IRI"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IRI"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IRI"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IRI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IRI"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionDescriptiveInformation"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionDescriptiveInformation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionDescriptiveInformation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionDescriptiveInformation"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionDescriptiveInformation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionPointCloud"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionPointCloud"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#UAVInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionPointCloud"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#UAVInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionPointCloud"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionResultDefinition"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionResultDefinition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#UAVInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionResultDefinition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionResultDefinition"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#UAVInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InspectionResultDefinition"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaneMarkersMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenancePrioritizationSnapshot"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenancePrioritizationSnapshot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenancePrioritizationSnapshot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenancePrioritizationSnapshot"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenancePrioritizationSnapshot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenanceTaskSnapshot"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenanceTaskSnapshot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenanceTaskSnapshot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenanceTaskSnapshot"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenanceTaskSnapshot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarkCharacterization"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarkCharacterization"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#CrackSealingMaintenance"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarkCharacterization"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#CrackSealingMaintenance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorDefect"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorDefect"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorDefect"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorDefect"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorDefect"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherSignalMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathology"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathology"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathology"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathology"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathology"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlannedMaintenanceSnapshot"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlannedMaintenanceSnapshot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlannedMaintenanceSnapshot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlannedMaintenanceSnapshot"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlannedMaintenanceSnapshot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RDMBS"/>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadCondition"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadCondition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadCondition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadCondition"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadCondition"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SFC"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SFC"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SFC"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SFC"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SFC"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceRehabilitationMaintenance"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/maintenance/Maintenance/MaintenanceActivityProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceRehabilitationMaintenanceResult"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceRehabilitationMaintenanceResult"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#SurfaceRehabilitationMaintenance"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceRehabilitationMaintenanceResult"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceRehabilitationMaintenanceResult"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#SurfaceRehabilitationMaintenance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceRehabilitationMaintenanceResult"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerrestialInspection"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeSeries"/>
+        <Class IRI="https://w3id.org/idsa/core/Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UAVInspection"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UAVTrajectory"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UAVTrajectory"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#UAVInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UAVTrajectory"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UAVTrajectory"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#UAVInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UAVTrajectory"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DLaserScanningData"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DLaserScanningData"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DLaserScanningData"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DLaserScanningData"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="#TerrestialInspection"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DLaserScanningData"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#FileStorage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DModel"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DModel"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DModel"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#BIMServer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DModel"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+            <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcObjectDefinition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3DModel"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#informationIn"/>
+            <Class IRI="#BIMServer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#TerrestialInspection"/>
+        <Class IRI="#UAVInspection"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+        <NamedIndividual IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#ROADSEGMENT"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/hasOutput"/>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart"/>
+        <Class IRI="http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#IfcRoadPartTypeEnum"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000001</IRI>
+        <Literal xml:lang="en">entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000066</IRI>
+        <Literal>occurs in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/OWL#predefinedType_IfcRoadPart</IRI>
+        <Literal>PredefinedType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>BarriersMaintenance</IRI>
+        <Literal xml:lang="en">Barriers maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>BarriersMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BarriersMaintenance</IRI>
+        <Literal xml:lang="en">Barriers Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>BarriersMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AsphaltMixEvolution</IRI>
+        <Literal xml:lang="en">This class is intended to represent Asphalt Mix parameters evolution related information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AsphaltMixEvolution</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AsphaltMixEvolution</IRI>
+        <Literal xml:lang="en">Asphalt Mix Evolution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#AsphaltMixEvolution</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Asset</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to an asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Asset</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asset</IRI>
+        <Literal xml:lang="en">Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#Asset</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BIMServer</IRI>
+        <Literal xml:lang="en">This class is intended to define BIM Server sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#BIMServer</IRI>
+        <Literal xml:lang="en">https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BIMServer</IRI>
+        <Literal xml:lang="en">BIMServer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#BIMServer</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CameraRawImages</IRI>
+        <Literal xml:lang="en">This class is intended to represent camera&apos;s raw images informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CameraRawImages</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CameraRawImages</IRI>
+        <Literal xml:lang="en">Camera raw images</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#CameraRawImages</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CleaningMaintenance</IRI>
+        <Literal xml:lang="en">Cleaning maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CleaningMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CleaningMaintenance</IRI>
+        <Literal xml:lang="en">Cleaning Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#CleaningMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConesMaintenance</IRI>
+        <Literal xml:lang="en">Cones maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ConesMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConesMaintenance</IRI>
+        <Literal xml:lang="en">Cones Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#ConesMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CrackCharacterization</IRI>
+        <Literal xml:lang="en">This class is intended to represent Crack Characterization related information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CrackCharacterization</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CrackCharacterization</IRI>
+        <Literal xml:lang="en">Crack Characterization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#CrackCharacterization</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CrackSealingMaintenance</IRI>
+        <Literal xml:lang="en">Crack sealing Maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CrackSealingMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CrackSealingMaintenance</IRI>
+        <Literal xml:lang="en">Crack Sealing Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#CrackSealingMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DeviationDegree</IRI>
+        <Literal xml:lang="en">This class is intended to represent terrestian vechicle&apos;s deviation degree related information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DeviationDegree</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviationDegree</IRI>
+        <Literal xml:lang="en">Deviation degree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#DeviationDegree</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExternalConditions</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to external conditions such as traffic, environmetal conditions, ...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ExternalConditions</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#ExternalConditions</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FileStorage</IRI>
+        <Literal xml:lang="en">This class is intended to define File Storage sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#FileStorage</IRI>
+        <Literal xml:lang="en">https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FileStorage</IRI>
+        <Literal xml:lang="en">FileStorage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#FileStorage</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IRI</IRI>
+        <Literal xml:lang="en">This class is intended to represent IRI measurement informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#IRI</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IRI</IRI>
+        <Literal xml:lang="en">IRI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#IRI</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InspectionDescriptiveInformation</IRI>
+        <Literal xml:lang="en">This class is intended to represent inspection descriptive informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#InspectionDescriptiveInformation</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#InspectionDescriptiveInformation</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InspectionPointCloud</IRI>
+        <Literal xml:lang="en">This class is intended to represent  related informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#InspectionPointCloud</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InspectionPointCloud</IRI>
+        <Literal xml:lang="en">Inspection PointCloud</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#InspectionPointCloud</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InspectionResultDefinition</IRI>
+        <Literal xml:lang="en">This class is intended to represent inspection results definition related informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#InspectionResultDefinition</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InspectionResultDefinition</IRI>
+        <Literal xml:lang="en">Inspection Result Definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#InspectionResultDefinition</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LaneMarkersMaintenance</IRI>
+        <Literal xml:lang="en">Lane Markers Maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LaneMarkersMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LaneMarkersMaintenance</IRI>
+        <Literal xml:lang="en">Lane Markers Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#LaneMarkersMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaintenancePrioritizationSnapshot</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to the maintenance activities prioritization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MaintenancePrioritizationSnapshot</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaintenancePrioritizationSnapshot</IRI>
+        <Literal xml:lang="en">Maintenance Prioritization Snapshot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#MaintenancePrioritizationSnapshot</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaintenanceTaskSnapshot</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to the planned maintenance activities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MaintenanceTaskSnapshot</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#MaintenanceTaskSnapshot</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Map</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to a map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Map</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Map</IRI>
+        <Literal xml:lang="en">Map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#Map</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MarkCharacterization</IRI>
+        <Literal xml:lang="en">This class is intended to represent Mark Characterizationrelated information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MarkCharacterization</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MarkCharacterization</IRI>
+        <Literal xml:lang="en">Mark Characterization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#MarkCharacterization</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MinorDefect</IRI>
+        <Literal xml:lang="en">This class is intended to represent minor defect related informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MinorDefect</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinorDefect</IRI>
+        <Literal xml:lang="en">Minor Defect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#MinorDefect</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OtherSignalMaintenance</IRI>
+        <Literal xml:lang="en">Other Signal Maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OtherSignalMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherSignalMaintenance</IRI>
+        <Literal xml:lang="en">Other Signal Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#OtherSignalMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pathology</IRI>
+        <Literal xml:lang="en">This class is intended to represent Pathology related informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pathology</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathology</IRI>
+        <Literal xml:lang="en">Pathology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#Pathology</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlannedMaintenanceSnapshot</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to the maintenance tasks to be performed for a certain maintenance activity process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PlannedMaintenanceSnapshot</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PlannedMaintenanceSnapshot</IRI>
+        <Literal xml:lang="en">Planned Maintenance Snapshot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#PlannedMaintenanceSnapshot</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RDMBS</IRI>
+        <Literal xml:lang="en">This class is intended to define relational data base sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RDMBS</IRI>
+        <Literal xml:lang="en">https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDMBS</IRI>
+        <Literal xml:lang="en">RDBMS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#RDMBS</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoadCondition</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to road conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RoadCondition</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoadCondition</IRI>
+        <Literal xml:lang="en">Road Condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#RoadCondition</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SFC</IRI>
+        <Literal xml:lang="en">This class is intended to represent SFC measurement informartion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SFC</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SFC</IRI>
+        <Literal xml:lang="en">SFC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#SFC</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SurfaceRehabilitationMaintenance</IRI>
+        <Literal xml:lang="en">Surface Rehabilitation Maintenance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SurfaceRehabilitationMaintenance</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SurfaceRehabilitationMaintenance</IRI>
+        <Literal xml:lang="en">Surface Rehabilitation Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#SurfaceRehabilitationMaintenance</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SurfaceRehabilitationMaintenanceResult</IRI>
+        <Literal xml:lang="en">This class is intended to represent Surface Rehabilitation Maintenance Result related information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SurfaceRehabilitationMaintenanceResult</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SurfaceRehabilitationMaintenanceResult</IRI>
+        <Literal xml:lang="en">Surface Rehabilitation Maintenance Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#SurfaceRehabilitationMaintenanceResult</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TerrestialInspection</IRI>
+        <Literal xml:lang="en">Terrestial vehicle driven inspection process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TerrestialInspection</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TerrestialInspection</IRI>
+        <Literal xml:lang="en">Terrestial Inspection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#TerrestialInspection</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeSeries</IRI>
+        <Literal xml:lang="en">This class is intended to define time series sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TimeSeries</IRI>
+        <Literal xml:lang="en">https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeSeries</IRI>
+        <Literal xml:lang="en">TimeSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#TimeSeries</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UAVInspection</IRI>
+        <Literal xml:lang="en">UAV devices driven inspection process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#UAVInspection</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UAVInspection</IRI>
+        <Literal xml:lang="en">UAV Inspection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#UAVInspection</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UAVTrajectory</IRI>
+        <Literal xml:lang="en">This class is intended to represent UAV Trajectory information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#UAVTrajectory</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UAVTrajectory</IRI>
+        <Literal xml:lang="en">UAV Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#UAVTrajectory</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#authentificationType</IRI>
+        <Literal>This relation is intended to define the AuthIfo for a certain Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#authentificationType</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#authentificationType</IRI>
+        <Literal>authentificationType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#authentificationType</IRI>
+        <Literal>testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#endpoint</IRI>
+        <Literal>This relation is intended to define the Endpoint for a certain Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#endpoint</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#endpoint</IRI>
+        <Literal>endpoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#endpoint</IRI>
+        <Literal>testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#informationIn</IRI>
+        <Literal xml:lang="en">Relation that link an entity and the resource where its information is stored in.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#informationIn</IRI>
+        <Literal>https://w3id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#informationIn</IRI>
+        <Literal xml:lang="en">informationIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#informationIn</IRI>
+        <Literal>testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#3DLaserScanningData</IRI>
+        <Literal xml:lang="en">This class is intended to represent 3D laser scanning device generated data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#3DLaserScanningData</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#3DLaserScanningData</IRI>
+        <Literal xml:lang="en">3D laser scanning data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#3DLaserScanningData</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#3DModel</IRI>
+        <Literal xml:lang="en">This class is intended to represent information related to 3D model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#3DModel</IRI>
+        <Literal>https://w3.id.org/omicron#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#3DModel</IRI>
+        <Literal xml:lang="en">3DModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns1:term_status"/>
+        <IRI>#3DModel</IRI>
+        <Literal xml:lang="en">testing</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
